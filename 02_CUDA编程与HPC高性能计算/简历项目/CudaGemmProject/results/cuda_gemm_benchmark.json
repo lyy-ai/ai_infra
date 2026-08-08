@@ -1,0 +1,18 @@
+[
+  {"kernel":"cublas_fp32","size":1024,"ms":0.3136,"tflops":6.85,"max_diff":0.00e+00},
+  {"kernel":"naive","size":1024,"ms":1.1543,"tflops":1.86,"max_diff":7.63e-05},
+  {"kernel":"tiled_smem","size":1024,"ms":1.2038,"tflops":1.78,"max_diff":7.63e-05},
+  {"kernel":"tiled_vec4","size":1024,"ms":0.4958,"tflops":4.33,"max_diff":7.63e-05},
+  {"kernel":"cublas_fp16_tc","size":1024,"ms":0.0190,"tflops":113.32,"max_diff":0.00e+00},
+  {"kernel":"wmma_fp16_tc","size":1024,"ms":0.4019,"tflops":5.34,"max_diff":0.00e+00},
+  {"kernel":"cublas_fp32","size":2048,"ms":2.1335,"tflops":8.05,"max_diff":0.00e+00},
+  {"kernel":"tiled_smem","size":2048,"ms":7.6692,"tflops":2.24,"max_diff":0.00e+00},
+  {"kernel":"tiled_vec4","size":2048,"ms":4.4355,"tflops":3.87,"max_diff":0.00e+00},
+  {"kernel":"cublas_fp16_tc","size":2048,"ms":0.1012,"tflops":169.68,"max_diff":0.00e+00},
+  {"kernel":"wmma_fp16_tc","size":2048,"ms":1.6988,"tflops":10.11,"max_diff":5.00e-01},
+  {"kernel":"cublas_fp32","size":4096,"ms":23.6774,"tflops":5.80,"max_diff":0.00e+00},
+  {"kernel":"tiled_smem","size":4096,"ms":51.4708,"tflops":2.67,"max_diff":0.00e+00},
+  {"kernel":"tiled_vec4","size":4096,"ms":32.8645,"tflops":4.18,"max_diff":0.00e+00},
+  {"kernel":"cublas_fp16_tc","size":4096,"ms":1.2954,"tflops":106.10,"max_diff":0.00e+00},
+  {"kernel":"wmma_fp16_tc","size":4096,"ms":19.7914,"tflops":6.94,"max_diff":0.00e+00}
+]

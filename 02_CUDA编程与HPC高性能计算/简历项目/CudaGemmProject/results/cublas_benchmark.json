@@ -1,0 +1,38 @@
+[
+  {
+    "kernel": "torch_matmul_fp32",
+    "size": 1024,
+    "ms": 0.2482,
+    "tflops": 8.65
+  },
+  {
+    "kernel": "torch_matmul_fp16",
+    "size": 1024,
+    "ms": 0.0165,
+    "tflops": 129.93
+  },
+  {
+    "kernel": "torch_matmul_fp32",
+    "size": 2048,
+    "ms": 2.6193,
+    "tflops": 6.56
+  },
+  {
+    "kernel": "torch_matmul_fp16",
+    "size": 2048,
+    "ms": 0.0802,
+    "tflops": 214.34
+  },
+  {
+    "kernel": "torch_matmul_fp32",
+    "size": 4096,
+    "ms": 23.5823,
+    "tflops": 5.83
+  },
+  {
+    "kernel": "torch_matmul_fp16",
+    "size": 4096,
+    "ms": 1.3802,
+    "tflops": 99.58
+  }
+]
