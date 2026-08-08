@@ -1,0 +1,51 @@
+{
+  "metadata": {
+    "created_at": "2026-07-17T17:58:03",
+    "model_path": "/data/liyangyang/models/Qwen2-0.5B-Instruct",
+    "served_model_name": "qwen2-0.5b-instruct",
+    "gpu_memory_utilization": 0.5,
+    "max_model_len": 1024,
+    "max_new_tokens": 16,
+    "enforce_eager": true,
+    "enable_prefix_caching": true,
+    "use_shared_prefix": true
+  },
+  "records": [
+    {
+      "batch_size": 1,
+      "elapsed_s": 0.5896699381992221,
+      "num_requests": 1,
+      "prompt_tokens": 150,
+      "completion_tokens": 16,
+      "total_tokens": 166,
+      "req_per_s": 1.6958639659567425,
+      "tok_per_s": 281.51341834881924,
+      "prefill_tok_per_s": 254.37959489351138,
+      "decode_tok_per_s": 27.13382345530788
+    },
+    {
+      "batch_size": 8,
+      "elapsed_s": 0.5040702233090997,
+      "num_requests": 8,
+      "prompt_tokens": 1214,
+      "completion_tokens": 68,
+      "total_tokens": 1282,
+      "req_per_s": 15.870804562669713,
+      "tok_per_s": 2543.2964311678215,
+      "prefill_tok_per_s": 2408.394592385129,
+      "decode_tok_per_s": 134.90183878269255
+    },
+    {
+      "batch_size": 32,
+      "elapsed_s": 0.5582226356491446,
+      "num_requests": 32,
+      "prompt_tokens": 4856,
+      "completion_tokens": 272,
+      "total_tokens": 5128,
+      "req_per_s": 57.32479830881081,
+      "tok_per_s": 9186.298928986933,
+      "prefill_tok_per_s": 8699.03814336204,
+      "decode_tok_per_s": 487.26078562489187
+    }
+  ]
+}

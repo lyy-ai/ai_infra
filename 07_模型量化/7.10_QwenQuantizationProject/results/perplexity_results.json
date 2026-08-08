@@ -1,0 +1,14 @@
+{
+  "fp16": {
+    "perplexity": 11.781450271606445,
+    "num_samples": 8
+  },
+  "int8": {
+    "perplexity": 11.914978981018066,
+    "num_samples": 8
+  },
+  "int4": {
+    "perplexity": 12.085314750671387,
+    "num_samples": 8
+  }
+}

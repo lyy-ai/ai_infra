@@ -1,0 +1,22 @@
+# Nginx example for routing OpenAI-compatible requests to a small vLLM cluster.
+# Usage: adapt ports, then reload nginx.
+
+upstream qwen2_vllm_cluster {
+    least_conn;
+    server 127.0.0.1:8000 max_fails=3 fail_timeout=10s;
+    server 127.0.0.1:8001 max_fails=3 fail_timeout=10s;
+    # server 127.0.0.1:8002 max_fails=3 fail_timeout=10s;
+}
+
+server {
+    listen 8080;
+
+    location /v1/ {
+        proxy_pass http://qwen2_vllm_cluster;
+        proxy_http_version 1.1;
+        proxy_set_header Host $host;
+        proxy_set_header Connection "";
+        proxy_read_timeout 3600s;
+        proxy_send_timeout 3600s;
+    }
+}

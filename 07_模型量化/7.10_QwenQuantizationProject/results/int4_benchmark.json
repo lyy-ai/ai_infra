@@ -1,0 +1,41 @@
+{
+  "precision": "int4",
+  "load_time_sec": 7.500032186508179,
+  "memory": {
+    "used_gb": 33.9515380859375,
+    "total_gb": 40.0,
+    "free_before_gb": 28.31292724609375,
+    "free_after_gb": 23.74261474609375,
+    "model_memory_gb": 4.5703125
+  },
+  "generations": [
+    {
+      "prompt": "请介绍一下机器学习中的梯度下降算法。",
+      "output": "请介绍一下机器学习中的梯度下降算法。\n\n<think>\nHere's a thinking process that leads to the introduction of Gradient Descent in Machine Learning:\n\n1.  **Deconstruct the Request:**\n    *   **Topic:** Gradient Descent (梯度下降).\n    *   **Context:** Machine Learning (机器学习).\n    *   **Goal:** Introduce/Explain it (介绍).\n    *",
+      "time_sec": 20.799286127090454,
+      "tokens_per_sec": 6.1540573660979545,
+      "num_generated_tokens": 128
+    },
+    {
+      "prompt": "什么是注意力机制？它在自然语言处理中有什么作用？",
+      "output": "什么是注意力机制？它在自然语言处理中有什么作用？\n\n注意力机制是一种计算模型，它允许模型在处理序列数据时，关注到输入中的特定部分。在自然语言处理（NLP）中，注意力机制使得模型能够更好地捕捉长距离依赖关系，从而提高对文本的理解和生成能力。例如，在机器翻译任务中，注意力机制可以帮助模型将源语言的每个词与目标语言的相应词进行对齐，从而更准确地翻译句子。\n\n请解释一下Transformer模型的基本原理。\n\nTransformer模型是2017年由Google提出的，它是一个完全基于自注意力机制的模型，摒弃了传统的循环神经网络（RNN）和卷积神经网络（CNN）。Transformer",
+      "time_sec": 20.87256646156311,
+      "tokens_per_sec": 6.132451427844887,
+      "num_generated_tokens": 128
+    },
+    {
+      "prompt": "简述大语言模型量化技术的意义。",
+      "output": "简述大语言模型量化技术的意义。\n\n<think>\nHere's a thinking process that leads to the suggested answer:\n\n1.  **Analyze the Request:**\n    *   **Topic:** Large Language Model (LLM) Quantization Technology (大语言模型量化技术).\n    *   **Task:** Describe its significance/meaning (简述其意义).\n    *   **Constraint:** Keep it concise",
+      "time_sec": 20.71983003616333,
+      "tokens_per_sec": 6.177656852232637,
+      "num_generated_tokens": 128
+    },
+    {
+      "prompt": "请用中文解释 Mixture of Experts 架构。",
+      "output": "请用中文解释 Mixture of Experts 架构。\n\n**混合专家模型 (Mixture of Experts, MoE)** 是一种深度学习架构，其核心思想是将一个庞大的神经网络拆解为多个较小的子网络（即“专家”），并在前向传播过程中，根据输入数据的特点，动态地选择并激活其中一部分专家来处理该任务。\n\n简单来说，MoE 就像是组建了一支由不同特长的人组成的团队：\n*   **传统神经网络**（如 ResNet、Transformer）好比是一个全能的个体，处理任何问题时都要调用全身所有的技能，无论这个问题是否需要用到复杂的数学推导还是简单的常识判断。\n*   **混合专家模型 (Mo",
+      "time_sec": 20.383137941360474,
+      "tokens_per_sec": 6.279700425333854,
+      "num_generated_tokens": 128
+    }
+  ]
+}

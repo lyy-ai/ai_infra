@@ -1,0 +1,5 @@
+# Qwen2-0.5B vLLM Cluster Project
+# 运行离线 benchmark 的最小依赖；服务部署请参考 scripts/start_qwen2_vllm_server.sh
+torch>=2.0
+transformers>=4.35
+vllm==0.25.0

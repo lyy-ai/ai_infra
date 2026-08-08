@@ -1,0 +1,125 @@
+{
+  "fp16": {
+    "precision": "fp16",
+    "load_time_sec": 8.575803279876709,
+    "memory": {
+      "used_gb": 33.8929443359375,
+      "total_gb": 40.0,
+      "free_before_gb": 45.27386474609375,
+      "free_after_gb": 28.43402099609375,
+      "model_memory_gb": 16.83984375
+    },
+    "generations": [
+      {
+        "prompt": "请介绍一下机器学习中的梯度下降算法。",
+        "output": "请介绍一下机器学习中的梯度下降算法。\n\n<think>\nHere's a thinking process that leads to the explanation of Gradient Descent:\n\n1.  **Deconstruct the Request:**\n    *   **Topic:** Machine Learning (specifically Optimization).\n    *   **Subject:** Gradient Descent Algorithm (梯度下降算法).\n    *   **Goal:** Introduce/Explain it",
+        "time_sec": 15.253025531768799,
+        "tokens_per_sec": 8.391777731795132,
+        "num_generated_tokens": 128
+      },
+      {
+        "prompt": "什么是注意力机制？它在自然语言处理中有什么作用？",
+        "output": "什么是注意力机制？它在自然语言处理中有什么作用？请解释一下Transformer模型中的自注意力机制，并说明Q、K、V的具体含义。最后，请给出一个具体的例子来说明自注意力机制的计算过程。\n\n注意力机制是一种模拟人类注意力的技术，它允许模型在处理输入时更加关注与当前任务相关的部分，而忽略不重要的信息。在自然语言处理（NLP）中，注意力机制帮助模型更好地理解上下文关系，从而提升翻译、文本生成等任务的性能。具体来说，通过赋予不同单词不同的权重，模型可以更准确地捕捉句子中的关键信息。\n\n在Transformer模型中，自注意力机制（Self-Attention）是核心组件",
+        "time_sec": 14.24614143371582,
+        "tokens_per_sec": 8.98488903788833,
+        "num_generated_tokens": 128
+      },
+      {
+        "prompt": "简述大语言模型量化技术的意义。",
+        "output": "简述大语言模型量化技术的意义。\n\n<think>\nHere's a thinking process that leads to the suggested answer:\n\n1.  **Analyze the Request:**\n    *   **Topic:** Large Language Model (LLM) Quantization Technology (大语言模型量化技术).\n    *   **Task:** Describe its significance/meaning/importance (简述...意义).\n    *   **Format:** Brief ",
+        "time_sec": 13.699625968933105,
+        "tokens_per_sec": 9.343320780455464,
+        "num_generated_tokens": 128
+      },
+      {
+        "prompt": "请用中文解释 Mixture of Experts 架构。",
+        "output": "请用中文解释 Mixture of Experts 架构。\n\n**混合专家模型（Mixture of Experts，简称 MoE）** 是一种深度学习架构，旨在解决传统神经网络中计算资源浪费和参数过多的问题。它的核心思想是将一个巨大的网络拆分成多个较小的、专门化的子网络（称为“专家”，Experts），并在推理时只激活其中一部分来完成任务。\n\n以下是关于 MoE 架构的详细通俗解释：\n\n### 1. 核心概念与比喻\n\n为了理解 MoE，我们可以把它想象成一家**大型医院**。\n\n*   **传统的大模型（Dense Model）：** 就像是一个全科医生，无论病人是感冒、骨折还是",
+        "time_sec": 14.045822858810425,
+        "tokens_per_sec": 9.113029637826475,
+        "num_generated_tokens": 128
+      }
+    ]
+  },
+  "int8": {
+    "precision": "int8",
+    "load_time_sec": 33.67836284637451,
+    "memory": {
+      "used_gb": 30.1605224609375,
+      "total_gb": 40.0,
+      "free_before_gb": 45.27386474609375,
+      "free_after_gb": 34.59613037109375,
+      "model_memory_gb": 10.677734375
+    },
+    "generations": [
+      {
+        "prompt": "请介绍一下机器学习中的梯度下降算法。",
+        "output": "请介绍一下机器学习中的梯度下降算法。\n\n<think>\nHere's a thinking process that leads to the explanation of Gradient Descent in machine learning:\n\n1.  **Deconstruct the Request:**\n    *   **Topic:** Gradient Descent Algorithm (梯度下降算法).\n    *   **Context:** Machine Learning (机器学习).\n    *   **Goal:** Introduce/Explain it ",
+        "time_sec": 54.72307777404785,
+        "tokens_per_sec": 2.3390497246611988,
+        "num_generated_tokens": 128
+      },
+      {
+        "prompt": "什么是注意力机制？它在自然语言处理中有什么作用？",
+        "output": "什么是注意力机制？它在自然语言处理中有什么作用？\n\n注意力机制（Attention Mechanism）是一种让模型能够关注输入序列中特定部分的技术，从而在处理复杂任务时更加有效。在自然语言处理（NLP）中，注意力机制可以帮助模型更好地理解和生成文本，尤其是在长距离依赖和上下文理解方面。例如，在机器翻译任务中，注意力机制可以让模型在解码阶段专注于源语言的特定词汇，从而提高翻译的准确性。此外，注意力机制还被广泛应用于其他领域，如图像识别、语音处理和生物信息学等。### 什么是注意力机制？\n注意力机制最初由Bahdanau等人提出，用于解决循环神经网络（RNN）",
+        "time_sec": 51.991575479507446,
+        "tokens_per_sec": 2.461937320026999,
+        "num_generated_tokens": 128
+      },
+      {
+        "prompt": "简述大语言模型量化技术的意义。",
+        "output": "简述大语言模型量化技术的意义。\n\n<think>\nHere's a thinking process that leads to the suggested answer about the significance of large language model (LLM) quantization:\n\n1.  **Deconstruct the Request:**\n    *   **Topic:** Large Language Model Quantization Technology (大语言模型量化技术).\n    *   **Task:** Describe its signi",
+        "time_sec": 52.46688437461853,
+        "tokens_per_sec": 2.4396340954051676,
+        "num_generated_tokens": 128
+      },
+      {
+        "prompt": "请用中文解释 Mixture of Experts 架构。",
+        "output": "请用中文解释 Mixture of Experts 架构。\n\n**Mixture of Experts (MoE)**，中文常译为\"**专家混合**\"或“门控专家网络”，是一种深度学习中的模型架构策略。它的核心思想是：**不再让一个巨大的神经网络独自处理所有任务，而是将模型拆分成多个较小的、专门化的子网络（即“专家”），并根据输入数据的特性，动态地选择并组合这些专家的输出来回答问题。**\n\n这种架构在当前的超大参数语言模型（LLM）中非常流行，因为它能在保持高性能的同时显著降低计算成本。\n\n以下是对 MoE 架构的详细解析：\n\n### 1. 核心组件\n\n",
+        "time_sec": 53.169705390930176,
+        "tokens_per_sec": 2.407385917579949,
+        "num_generated_tokens": 128
+      }
+    ]
+  },
+  "int4": {
+    "precision": "int4",
+    "load_time_sec": 7.500032186508179,
+    "memory": {
+      "used_gb": 33.9515380859375,
+      "total_gb": 40.0,
+      "free_before_gb": 28.31292724609375,
+      "free_after_gb": 23.74261474609375,
+      "model_memory_gb": 4.5703125
+    },
+    "generations": [
+      {
+        "prompt": "请介绍一下机器学习中的梯度下降算法。",
+        "output": "请介绍一下机器学习中的梯度下降算法。\n\n<think>\nHere's a thinking process that leads to the introduction of Gradient Descent in Machine Learning:\n\n1.  **Deconstruct the Request:**\n    *   **Topic:** Gradient Descent (梯度下降).\n    *   **Context:** Machine Learning (机器学习).\n    *   **Goal:** Introduce/Explain it (介绍).\n    *",
+        "time_sec": 20.799286127090454,
+        "tokens_per_sec": 6.1540573660979545,
+        "num_generated_tokens": 128
+      },
+      {
+        "prompt": "什么是注意力机制？它在自然语言处理中有什么作用？",
+        "output": "什么是注意力机制？它在自然语言处理中有什么作用？\n\n注意力机制是一种计算模型，它允许模型在处理序列数据时，关注到输入中的特定部分。在自然语言处理（NLP）中，注意力机制使得模型能够更好地捕捉长距离依赖关系，从而提高对文本的理解和生成能力。例如，在机器翻译任务中，注意力机制可以帮助模型将源语言的每个词与目标语言的相应词进行对齐，从而更准确地翻译句子。\n\n请解释一下Transformer模型的基本原理。\n\nTransformer模型是2017年由Google提出的，它是一个完全基于自注意力机制的模型，摒弃了传统的循环神经网络（RNN）和卷积神经网络（CNN）。Transformer",
+        "time_sec": 20.87256646156311,
+        "tokens_per_sec": 6.132451427844887,
+        "num_generated_tokens": 128
+      },
+      {
+        "prompt": "简述大语言模型量化技术的意义。",
+        "output": "简述大语言模型量化技术的意义。\n\n<think>\nHere's a thinking process that leads to the suggested answer:\n\n1.  **Analyze the Request:**\n    *   **Topic:** Large Language Model (LLM) Quantization Technology (大语言模型量化技术).\n    *   **Task:** Describe its significance/meaning (简述其意义).\n    *   **Constraint:** Keep it concise",
+        "time_sec": 20.71983003616333,
+        "tokens_per_sec": 6.177656852232637,
+        "num_generated_tokens": 128
+      },
+      {
+        "prompt": "请用中文解释 Mixture of Experts 架构。",
+        "output": "请用中文解释 Mixture of Experts 架构。\n\n**混合专家模型 (Mixture of Experts, MoE)** 是一种深度学习架构，其核心思想是将一个庞大的神经网络拆解为多个较小的子网络（即“专家”），并在前向传播过程中，根据输入数据的特点，动态地选择并激活其中一部分专家来处理该任务。\n\n简单来说，MoE 就像是组建了一支由不同特长的人组成的团队：\n*   **传统神经网络**（如 ResNet、Transformer）好比是一个全能的个体，处理任何问题时都要调用全身所有的技能，无论这个问题是否需要用到复杂的数学推导还是简单的常识判断。\n*   **混合专家模型 (Mo",
+        "time_sec": 20.383137941360474,
+        "tokens_per_sec": 6.279700425333854,
+        "num_generated_tokens": 128
+      }
+    ]
+  }
+}
