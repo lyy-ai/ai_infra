@@ -1,0 +1,13 @@
+{
+  "mode": "single_gpu",
+  "gpus": 1,
+  "params_M": 109.8,
+  "batch": 8,
+  "seq": 256,
+  "steps": 40,
+  "fwd_ms": 24.47,
+  "bwd_ms": 53.1,
+  "step_ms": 97.94,
+  "tokens_per_s": 18757.0,
+  "peak_mem_gb": 3.46
+}

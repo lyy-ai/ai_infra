@@ -1,0 +1,35 @@
+{
+  "world": 2,
+  "results": [
+    {
+      "size_mb": 1,
+      "ms": 1.092,
+      "algbw_gbps": 0.9,
+      "busbw_gbps": 0.9
+    },
+    {
+      "size_mb": 16,
+      "ms": 10.11,
+      "algbw_gbps": 1.5,
+      "busbw_gbps": 1.5
+    },
+    {
+      "size_mb": 64,
+      "ms": 41.476,
+      "algbw_gbps": 1.5,
+      "busbw_gbps": 1.5
+    },
+    {
+      "size_mb": 256,
+      "ms": 158.993,
+      "algbw_gbps": 1.6,
+      "busbw_gbps": 1.6
+    },
+    {
+      "size_mb": 512,
+      "ms": 323.728,
+      "algbw_gbps": 1.5,
+      "busbw_gbps": 1.5
+    }
+  ]
+}

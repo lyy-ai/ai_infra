@@ -1,0 +1,27 @@
+{
+  "mode": "ddp",
+  "gpus": 2,
+  "params_M": 109.8,
+  "batch_per_rank": 8,
+  "seq": 256,
+  "steps": 40,
+  "ranks": [
+    {
+      "rank": 0,
+      "fwd_ms": 24.13,
+      "bwd_ms": 286.42,
+      "step_ms": 331.17,
+      "peak_mem_gb": 3.92,
+      "wall_s": 13.79
+    },
+    {
+      "rank": 1,
+      "fwd_ms": 20.85,
+      "bwd_ms": 293.16,
+      "step_ms": 331.39,
+      "peak_mem_gb": 3.92,
+      "wall_s": 13.78
+    }
+  ],
+  "tokens_per_s": 11881.0
+}
