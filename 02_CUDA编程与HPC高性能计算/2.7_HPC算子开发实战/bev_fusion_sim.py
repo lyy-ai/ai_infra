@@ -1,8 +1,8 @@
 # 3.7 HPC 算子开发实战：BEV 特征融合分块思想模拟
 #
 # 运行：
-#   cd /data/liyangyang/ai_infra/02_CUDA编程与HPC高性能计算
-#   /data/liyangyang/qwen35_env/bin/python 2.7_HPC算子开发实战/bev_fusion_sim.py
+#   cd /data/ai_infra/02_CUDA编程与HPC高性能计算
+#   /data/qwen35_env/bin/python 2.7_HPC算子开发实战/bev_fusion_sim.py
 import numpy as np
 
 

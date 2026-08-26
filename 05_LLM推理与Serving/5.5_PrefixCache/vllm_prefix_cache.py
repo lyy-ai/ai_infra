@@ -8,7 +8,7 @@ vLLM Prefix Cache 示例。
 3. 用一组不共享前缀的请求作为对照，理解 Prefix Cache 的收益边界
 
 运行方式：
-    PATH=/data/liyangyang/qwen35_env/bin:$PATH python 5.5_PrefixCache/vllm_prefix_cache.py
+    PATH=/data/qwen35_env/bin:$PATH python 5.5_PrefixCache/vllm_prefix_cache.py
 
 说明：
 - 脚本已导入 vllm_env_helper 以完成 vLLM 环境初始化。
@@ -22,7 +22,7 @@ import vllm_env_helper  # noqa: F401
 from vllm import LLM, SamplingParams
 
 
-MODEL_PATH = "/data/liyangyang/models/Qwen3.5-9B"
+MODEL_PATH = "/data/models/Qwen3.5-9B"
 GPU_MEMORY_UTILIZATION = 0.55
 MAX_MODEL_LEN = 4096
 MAX_NUM_SEQS = 32

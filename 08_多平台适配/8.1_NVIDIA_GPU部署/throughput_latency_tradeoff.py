@@ -1,8 +1,8 @@
 # 9.1 NVIDIA GPU 部署：吞吐-延迟权衡估算
 #
 # 运行：
-#   cd /data/liyangyang/ai_infra/08_多平台适配
-#   /data/liyangyang/qwen35_env/bin/python 8.1_NVIDIA_GPU部署/throughput_latency_tradeoff.py
+#   cd /data/ai_infra/08_多平台适配
+#   /data/qwen35_env/bin/python 8.1_NVIDIA_GPU部署/throughput_latency_tradeoff.py
 
 
 def estimate(params_b, bandwidth_gbps, batch_sizes, dtype_bytes=2):

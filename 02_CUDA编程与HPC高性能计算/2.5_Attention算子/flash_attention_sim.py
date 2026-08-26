@@ -1,8 +1,8 @@
 # 3.5 Attention 算子：FlashAttention Online Softmax 思想模拟
 #
 # 运行：
-#   cd /data/liyangyang/ai_infra/02_CUDA编程与HPC高性能计算
-#   /data/liyangyang/qwen35_env/bin/python 2.5_Attention算子/flash_attention_sim.py
+#   cd /data/ai_infra/02_CUDA编程与HPC高性能计算
+#   /data/qwen35_env/bin/python 2.5_Attention算子/flash_attention_sim.py
 import numpy as np
 
 

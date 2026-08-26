@@ -1,8 +1,8 @@
 # 10.1 CI/CD 与自动化：流水线阶段模拟
 #
 # 运行：
-#   cd /data/liyangyang/ai_infra/09_企业级工程体系
-#   /data/liyangyang/qwen35_env/bin/python 9.1_CI_CD与自动化/ci_pipeline_sim.py
+#   cd /data/ai_infra/09_企业级工程体系
+#   /data/qwen35_env/bin/python 9.1_CI_CD与自动化/ci_pipeline_sim.py
 
 import random
 

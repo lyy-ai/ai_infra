@@ -1,7 +1,7 @@
 // 3.1 CUDA 编程体系：Grid/Block/Thread 索引计算示例
 //
 // 编译运行：
-//   cd /data/liyangyang/ai_infra/CUDA编程与HPC高性能计算
+//   cd /data/ai_infra/CUDA编程与HPC高性能计算
 //   nvcc -o /tmp/thread_indexing 3.1_CUDA编程体系/thread_indexing.cu && /tmp/thread_indexing
 #include <cuda_runtime.h>
 #include <stdio.h>

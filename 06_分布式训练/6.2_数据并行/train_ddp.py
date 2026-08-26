@@ -1,7 +1,7 @@
 # 7.2 数据并行：DDP 多进程训练示例
 #
 # 运行：
-#   cd /data/liyangyang/ai_infra/06_分布式训练
+#   cd /data/ai_infra/06_分布式训练
 #   python -m torchrun --nproc_per_node=2 6.2_数据并行/train_ddp.py
 #
 # 注：若只有单卡或 CPU 环境，可用 spawn 模拟多进程（不实际使用多 GPU）

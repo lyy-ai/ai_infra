@@ -9,7 +9,7 @@ transformers 与 vLLM 吞吐对比示例。
 4. 对比两种方式的 Latency 和 Throughput
 
 运行环境：
-    PATH=/data/liyangyang/qwen35_env/bin:$PATH python examples/vllm_vs_transformers_benchmark.py
+    PATH=/data/qwen35_env/bin:$PATH python examples/vllm_vs_transformers_benchmark.py
 
 说明：
 - 脚本已导入 vllm_env_helper 以完成 vLLM 环境初始化（CUDA 13 库预加载、ninja PATH、GPU 选择）。
@@ -21,7 +21,7 @@ import time
 import vllm_env_helper  # noqa: F401  必须在 import torch 之前，以正确设置 CUDA_VISIBLE_DEVICES
 
 
-MODEL_PATH = "/data/liyangyang/models/Qwen3.5-9B"
+MODEL_PATH = "/data/models/Qwen3.5-9B"
 MAX_NEW_TOKENS = 128
 NUM_PROMPTS = 16
 

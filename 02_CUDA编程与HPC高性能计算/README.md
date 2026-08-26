@@ -42,8 +42,8 @@ CUDA编程与HPC高性能计算/
 每个子专题目录下都有 `images/` 演示图；如需重新生成或改配色，运行：
 
 ```bash
-source /data/liyangyang/qwen35_env/bin/activate
-python /data/liyangyang/ai_infra/02_CUDA编程与HPC高性能计算/tools/generate_cuda_hpc_diagrams.py
+source /data/qwen35_env/bin/activate
+python /data/ai_infra/02_CUDA编程与HPC高性能计算/tools/generate_cuda_hpc_diagrams.py
 ```
 
 ## 运行环境
@@ -57,7 +57,7 @@ python /data/liyangyang/ai_infra/02_CUDA编程与HPC高性能计算/tools/genera
 激活环境：
 
 ```bash
-source /data/liyangyang/qwen35_env/bin/activate
+source /data/qwen35_env/bin/activate
 ```
 
 CUDA C++ 代码使用 `nvcc` 编译，CPU 代码使用 `g++` 编译。
@@ -65,8 +65,8 @@ CUDA C++ 代码使用 `nvcc` 编译，CPU 代码使用 `g++` 编译。
 ## 运行示例
 
 ```bash
-source /data/liyangyang/qwen35_env/bin/activate
-cd /data/liyangyang/ai_infra/02_CUDA编程与HPC高性能计算
+source /data/qwen35_env/bin/activate
+cd /data/ai_infra/02_CUDA编程与HPC高性能计算
 
 # CUDA kernel
 nvcc -o /tmp/thread_indexing 2.1_CUDA编程体系/thread_indexing.cu && /tmp/thread_indexing

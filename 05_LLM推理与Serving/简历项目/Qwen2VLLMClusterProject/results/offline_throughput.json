@@ -1,7 +1,7 @@
 {
   "metadata": {
     "created_at": "2026-07-17T17:58:03",
-    "model_path": "/data/liyangyang/models/Qwen2-0.5B-Instruct",
+    "model_path": "/data/models/Qwen2-0.5B-Instruct",
     "served_model_name": "qwen2-0.5b-instruct",
     "gpu_memory_utilization": 0.5,
     "max_model_len": 1024,

@@ -1,8 +1,8 @@
 # 9.5 Benchmark 方法论：自动生成对比报告
 #
 # 运行：
-#   cd /data/liyangyang/ai_infra/08_多平台适配
-#   /data/liyangyang/qwen35_env/bin/python 8.5_Benchmark方法论/generate_report.py
+#   cd /data/ai_infra/08_多平台适配
+#   /data/qwen35_env/bin/python 8.5_Benchmark方法论/generate_report.py
 
 
 def generate_markdown_report(results, output_path):

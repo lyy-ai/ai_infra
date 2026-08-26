@@ -2,8 +2,8 @@
 """4.6 ONNX 到 TVM 编译流程：端到端示例（Relax 版）
 
 运行：
-    cd /data/liyangyang/ai_infra/03_AI编译器
-    /data/liyangyang/qwen35_env/bin/python 3.6_ONNX到TensorRT到TVM编译流程/onnx_tensorrt_tvm.py
+    cd /data/ai_infra/03_AI编译器
+    /data/qwen35_env/bin/python 3.6_ONNX到TensorRT到TVM编译流程/onnx_tensorrt_tvm.py
 
 依赖：tvm, onnx（已在 qwen35_env 中安装。TensorRT 后端需额外安装 tensorrt 包与 NVIDIA 环境。）
 """

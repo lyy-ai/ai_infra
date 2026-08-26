@@ -48,7 +48,7 @@ python tools/generate_runtime_diagrams.py
 ## 运行示例
 
 ```bash
-cd /data/liyangyang/ai_infra/04_Runtime推理引擎
+cd /data/ai_infra/04_Runtime推理引擎
 
 python 4.1_Runtime架构设计/runtime_scheduler_simulator.py
 python 4.2_内存池设计/memory_pool_simulator.py

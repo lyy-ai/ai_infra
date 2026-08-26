@@ -1,7 +1,7 @@
 # 1.1 什么是 AI Infra：不可能三角权衡计算
 #
 # 运行：
-#   /data/liyangyang/qwen35_env/bin/python 1.1_什么是AI_Infra/infra_tradeoff_calc.py
+#   /data/qwen35_env/bin/python 1.1_什么是AI_Infra/infra_tradeoff_calc.py
 
 
 def main():

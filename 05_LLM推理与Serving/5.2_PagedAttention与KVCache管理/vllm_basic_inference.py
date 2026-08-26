@@ -13,7 +13,7 @@ vLLM 基础推理示例。
 
 注意：
 - 脚本已导入 vllm_env_helper 以完成 vLLM 环境初始化（CUDA 13 库预加载、ninja PATH、GPU 选择）。
-- 建议运行命令：PATH=/data/liyangyang/qwen35_env/bin:$PATH python examples/vllm_basic_inference.py
+- 建议运行命令：PATH=/data/qwen35_env/bin:$PATH python examples/vllm_basic_inference.py
 - 若需指定 GPU，请设置 CUDA_VISIBLE_DEVICES；主进程会自动选择空闲显存最多的 GPU。
 """
 import time
@@ -22,7 +22,7 @@ import vllm_env_helper  # noqa: F401
 from vllm import LLM, SamplingParams
 
 
-MODEL_PATH = "/data/liyangyang/models/Qwen3.5-9B"
+MODEL_PATH = "/data/models/Qwen3.5-9B"
 GPU_MEMORY_UTILIZATION = 0.7
 MAX_MODEL_LEN = 4096
 

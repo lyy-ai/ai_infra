@@ -1,8 +1,8 @@
 # 9.3 Ascend NPU 适配：ATC 转换前检查清单
 #
 # 运行：
-#   cd /data/liyangyang/ai_infra/08_多平台适配
-#   /data/liyangyang/qwen35_env/bin/python 8.3_Ascend_NPU适配/atc_checklist.py
+#   cd /data/ai_infra/08_多平台适配
+#   /data/qwen35_env/bin/python 8.3_Ascend_NPU适配/atc_checklist.py
 
 
 def check_atc_readiness():

@@ -1,7 +1,7 @@
 # 2.1 编程语言基础：Python 进阶演示
 #
 # 运行：
-#   /data/liyangyang/qwen35_env/bin/python 1.5_编程语言基础/python_advanced_demo.py
+#   /data/qwen35_env/bin/python 1.5_编程语言基础/python_advanced_demo.py
 
 import functools
 import time

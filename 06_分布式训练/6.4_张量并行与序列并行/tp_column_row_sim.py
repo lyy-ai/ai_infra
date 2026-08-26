@@ -1,8 +1,8 @@
 # 7.4 张量并行与序列并行：列切分与行切分模拟
 #
 # 运行：
-#   cd /data/liyangyang/ai_infra/06_分布式训练
-#   /data/liyangyang/qwen35_env/bin/python 6.4_张量并行与序列并行/tp_column_row_sim.py
+#   cd /data/ai_infra/06_分布式训练
+#   /data/qwen35_env/bin/python 6.4_张量并行与序列并行/tp_column_row_sim.py
 import numpy as np
 
 

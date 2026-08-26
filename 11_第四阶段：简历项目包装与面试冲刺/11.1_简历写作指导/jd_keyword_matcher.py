@@ -1,8 +1,8 @@
 # 1. 简历写作指导：简历-JD 关键词匹配
 #
 # 运行：
-#   cd /data/liyangyang/ai_infra/11_第四阶段：简历项目包装与面试冲刺
-#   /data/liyangyang/qwen35_env/bin/python 11.1_简历写作指导/jd_keyword_matcher.py
+#   cd /data/ai_infra/11_第四阶段：简历项目包装与面试冲刺
+#   /data/qwen35_env/bin/python 11.1_简历写作指导/jd_keyword_matcher.py
 
 
 RESUME_TEXT = """

@@ -2,8 +2,8 @@
 """4.2 TVM 架构拆解：对比静态 shape 与动态 shape 的 Relax IR
 
 运行：
-    cd /data/liyangyang/ai_infra/03_AI编译器
-    /data/liyangyang/qwen35_env/bin/python 3.2_TVM架构拆解/tvm_ir_compare.py
+    cd /data/ai_infra/03_AI编译器
+    /data/qwen35_env/bin/python 3.2_TVM架构拆解/tvm_ir_compare.py
 
 依赖：tvm（已在 qwen35_env 中安装：apache-tvm 0.25.0，仅含 Relax）
 """

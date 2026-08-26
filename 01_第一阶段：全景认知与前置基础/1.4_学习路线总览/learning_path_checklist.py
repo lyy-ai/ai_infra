@@ -1,7 +1,7 @@
 # 1.4 学习路线总览：自查清单
 #
 # 运行：
-#   /data/liyangyang/qwen35_env/bin/python 1.4_学习路线总览/learning_path_checklist.py
+#   /data/qwen35_env/bin/python 1.4_学习路线总览/learning_path_checklist.py
 
 
 PATH = [

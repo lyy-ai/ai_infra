@@ -128,7 +128,7 @@ def inspect_quantization_config(hf_model_path: str):
 if __name__ == "__main__":
     # 请根据实际情况修改本地路径
     HF_MODEL = "/path/to/Qwen3.5-35B-A3B-GPTQ-Int4"
-    MLC_DIR = "/data/liyangyang/ai_infra/07_模型量化/7.7_W4A8/qwen3.5-35b-a3b-gptq-int4-mlc"
+    MLC_DIR = "/data/ai_infra/07_模型量化/7.7_W4A8/qwen3.5-35b-a3b-gptq-int4-mlc"
 
     # 1) 查看模型量化配置（无需安装 mlc-llm）
     inspect_quantization_config(HF_MODEL)

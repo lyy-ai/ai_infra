@@ -8,7 +8,7 @@ vLLM Continuous Batching 示例。
 3. 对比不同并发数下的吞吐
 
 运行方式：
-    PATH=/data/liyangyang/qwen35_env/bin:$PATH python examples/vllm_continuous_batching.py
+    PATH=/data/qwen35_env/bin:$PATH python examples/vllm_continuous_batching.py
 
 说明：
 - 脚本已导入 vllm_env_helper 以完成 vLLM 环境初始化（CUDA 13 库预加载、ninja PATH、GPU 选择）。
@@ -29,7 +29,7 @@ except ImportError:
     sys.exit(1)
 
 
-MODEL_PATH = "/data/liyangyang/models/Qwen3.5-9B"
+MODEL_PATH = "/data/models/Qwen3.5-9B"
 
 
 def generate_prompts(n: int) -> list:

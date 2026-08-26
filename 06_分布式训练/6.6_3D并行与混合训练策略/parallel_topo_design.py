@@ -1,8 +1,8 @@
 # 7.6 3D 并行与混合训练策略：并行拓扑设计
 #
 # 运行：
-#   cd /data/liyangyang/ai_infra/06_分布式训练
-#   /data/liyangyang/qwen35_env/bin/python 6.6_3D并行与混合训练策略/parallel_topo_design.py
+#   cd /data/ai_infra/06_分布式训练
+#   /data/qwen35_env/bin/python 6.6_3D并行与混合训练策略/parallel_topo_design.py
 
 
 def design_3d_topology(total_gpus, layers, hidden, params_b, tp_pref=8, max_layers_per_stage=32):

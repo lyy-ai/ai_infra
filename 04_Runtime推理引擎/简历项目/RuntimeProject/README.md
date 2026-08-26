@@ -7,7 +7,7 @@
 ## 构建与运行
 
 ```bash
-cd /data/liyangyang/ai_infra/04_Runtime推理引擎/简历项目/RuntimeProject
+cd /data/ai_infra/04_Runtime推理引擎/简历项目/RuntimeProject
 cmake -S . -B build
 cmake --build build -j
 ./build/runtime_demo

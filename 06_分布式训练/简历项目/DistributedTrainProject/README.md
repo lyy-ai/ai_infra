@@ -29,7 +29,7 @@ DistributedTrainProject/
 ## 运行
 
 ```bash
-cd /data/liyangyang/ai_infra/06_分布式训练/简历项目/DistributedTrainProject
+cd /data/ai_infra/06_分布式训练/简历项目/DistributedTrainProject
 make single   # 单卡 baseline
 make ddp      # torchrun --nproc_per_node=2 DDP 双卡
 make comm     # NCCL AllReduce 带宽实测

@@ -1,8 +1,8 @@
 # 7.5 流水线并行：GPipe 与 1F1B 气泡率估算
 #
 # 运行：
-#   cd /data/liyangyang/ai_infra/06_分布式训练
-#   /data/liyangyang/qwen35_env/bin/python 6.5_流水线并行/pipeline_bubble_calc.py
+#   cd /data/ai_infra/06_分布式训练
+#   /data/qwen35_env/bin/python 6.5_流水线并行/pipeline_bubble_calc.py
 
 
 def gpipe_bubble_rate(num_stages, num_micro_batches):

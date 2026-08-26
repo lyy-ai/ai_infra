@@ -1,8 +1,8 @@
 # 3.8 性能分析工具链：Roofline 模型绘制
 #
 # 运行：
-#   cd /data/liyangyang/ai_infra/02_CUDA编程与HPC高性能计算
-#   /data/liyangyang/qwen35_env/bin/python 2.8_性能分析工具链/roofline_calc.py
+#   cd /data/ai_infra/02_CUDA编程与HPC高性能计算
+#   /data/qwen35_env/bin/python 2.8_性能分析工具链/roofline_calc.py
 import numpy as np
 import matplotlib
 matplotlib.use('Agg')

@@ -9,7 +9,7 @@
 本目录包含一个可编译的 C++ skeleton：
 
 ```text
-/data/liyangyang/ai_infra/04_Runtime推理引擎/简历项目/RuntimeProject/
+/data/ai_infra/04_Runtime推理引擎/简历项目/RuntimeProject/
 ```
 
 它不是生产 Runtime，而是用来支撑简历叙述的最小工程证据：ArenaAllocator、SizeClassPool、Graph Executor 估算、CUDA Graph 摊销模型、Dynamic Batch Scheduler。
@@ -127,7 +127,7 @@ Session 结束按 scope Reset workspace；通过 pool hit rate、peak memory、l
 运行：
 
 ```bash
-cd /data/liyangyang/ai_infra/04_Runtime推理引擎/简历项目/RuntimeProject
+cd /data/ai_infra/04_Runtime推理引擎/简历项目/RuntimeProject
 cmake -S . -B build && cmake --build build -j
 ./build/runtime_demo
 ```

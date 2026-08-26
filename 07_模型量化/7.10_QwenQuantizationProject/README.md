@@ -2,7 +2,7 @@
 
 ## 项目概述
 
-本项目以 **Qwen3.5-9B**（`/data/liyangyang/models/Qwen3.5-9B`）为对象，完成一套完整的业务级大模型量化实战方案。通过 **FP16 / INT8 / INT4(NF4)** 三种精度部署，对比显存占用、推理速度和生成质量，最终输出可直接写进简历的完整项目成果。
+本项目以 **Qwen3.5-9B**（`/data/models/Qwen3.5-9B`）为对象，完成一套完整的业务级大模型量化实战方案。通过 **FP16 / INT8 / INT4(NF4)** 三种精度部署，对比显存占用、推理速度和生成质量，最终输出可直接写进简历的完整项目成果。
 
 ### 项目价值
 
@@ -25,7 +25,7 @@
 
 | 属性 | 数值 |
 |------|------|
-| 模型路径 | `/data/liyangyang/models/Qwen3.5-9B` |
+| 模型路径 | `/data/models/Qwen3.5-9B` |
 | 架构 | `Qwen3_5ForConditionalGeneration` |
 | 层数 | 32（linear_attention × 24 + full_attention × 8 的混合架构） |
 | 隐藏维度 | 4096 |
@@ -96,7 +96,7 @@ Qwen3.5-9B FP16 权重约 18.8 GB，加载后加上 KV Cache、激活、workspac
 ## 3. 项目结构
 
 ```
-/data/liyangyang/ai_infra/QwenQuantizationProject/
+/data/ai_infra/QwenQuantizationProject/
 ├── README.md                           # 项目说明（即本文件）
 ├── requirements.txt                    # Python 依赖
 ├── config.py                           # 模型路径、参数、prompts 等配置
@@ -126,7 +126,7 @@ Qwen3.5-9B FP16 权重约 18.8 GB，加载后加上 KV Cache、激活、workspac
 ### 4.1 配置：`config.py`
 
 ```python
-MODEL_PATH = "/data/liyangyang/models/Qwen3.5-9B"
+MODEL_PATH = "/data/models/Qwen3.5-9B"
 RESULTS_DIR = "results"
 MAX_NEW_TOKENS = 128
 TEMPERATURE = 0.7
@@ -290,7 +290,7 @@ def compute_perplexity(model, tokenizer, texts, max_length=512):
 本项目使用已有的 Qwen3.5 虚拟环境：
 
 ```bash
-source /data/liyangyang/qwen35_env/bin/activate
+source /data/qwen35_env/bin/activate
 ```
 
 ### 5.2 确认依赖
@@ -320,32 +320,32 @@ pip install -r requirements.txt
 ### 6.1 一键运行完整 Benchmark
 
 ```bash
-cd /data/liyangyang/ai_infra/QwenQuantizationProject
-/data/liyangyang/qwen35_env/bin/python scripts/benchmark.py
+cd /data/ai_infra/QwenQuantizationProject
+/data/qwen35_env/bin/python scripts/benchmark.py
 ```
 
 如果只想跑某一种精度（例如单独验证 INT4）：
 
 ```bash
-/data/liyangyang/qwen35_env/bin/python scripts/benchmark.py --precision int4
+/data/qwen35_env/bin/python scripts/benchmark.py --precision int4
 ```
 
 ### 6.2 运行困惑度评估
 
 ```bash
-/data/liyangyang/qwen35_env/bin/python scripts/evaluate_perplexity.py
+/data/qwen35_env/bin/python scripts/evaluate_perplexity.py
 ```
 
 ### 6.3 运行生成质量对比
 
 ```bash
-/data/liyangyang/qwen35_env/bin/python scripts/evaluate_generation.py
+/data/qwen35_env/bin/python scripts/evaluate_generation.py
 ```
 
 ### 6.4 启动交互式对话
 
 ```bash
-/data/liyangyang/qwen35_env/bin/python scripts/chat_demo.py
+/data/qwen35_env/bin/python scripts/chat_demo.py
 ```
 
 ---

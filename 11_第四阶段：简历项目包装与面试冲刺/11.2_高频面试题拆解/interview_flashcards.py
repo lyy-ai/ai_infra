@@ -1,8 +1,8 @@
 # 2. 高频面试题拆解：自测抽认卡
 #
 # 运行（交互）：
-#   cd /data/liyangyang/ai_infra/11_第四阶段：简历项目包装与面试冲刺
-#   /data/liyangyang/qwen35_env/bin/python 11.2_高频面试题拆解/interview_flashcards.py
+#   cd /data/ai_infra/11_第四阶段：简历项目包装与面试冲刺
+#   /data/qwen35_env/bin/python 11.2_高频面试题拆解/interview_flashcards.py
 
 import random
 import sys

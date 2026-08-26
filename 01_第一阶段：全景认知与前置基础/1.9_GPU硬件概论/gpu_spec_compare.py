@@ -1,7 +1,7 @@
 # 2.5 GPU 硬件概论：规格对比与 roofline 拐点
 #
 # 运行：
-#   /data/liyangyang/qwen35_env/bin/python 1.9_GPU硬件概论/gpu_spec_compare.py
+#   /data/qwen35_env/bin/python 1.9_GPU硬件概论/gpu_spec_compare.py
 
 
 GPUS = [

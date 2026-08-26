@@ -1,8 +1,8 @@
 # 7.3 ZeRO 系列：各级 ZeRO 显存占用估算
 #
 # 运行：
-#   cd /data/liyangyang/ai_infra/06_分布式训练
-#   /data/liyangyang/qwen35_env/bin/python 6.3_ZeRO系列/zero_memory_estimator.py
+#   cd /data/ai_infra/06_分布式训练
+#   /data/qwen35_env/bin/python 6.3_ZeRO系列/zero_memory_estimator.py
 
 
 def estimate_zero_memory(params_b, world_size, hidden, seq_len, batch_size, num_layers):

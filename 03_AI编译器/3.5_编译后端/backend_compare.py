@@ -2,8 +2,8 @@
 """4.5 编译后端：LLVM / CUDA 后端配置对比（Relax 版）
 
 运行：
-    cd /data/liyangyang/ai_infra/03_AI编译器
-    /data/liyangyang/qwen35_env/bin/python 3.5_编译后端/backend_compare.py
+    cd /data/ai_infra/03_AI编译器
+    /data/qwen35_env/bin/python 3.5_编译后端/backend_compare.py
 
 依赖：tvm（已在 qwen35_env 中安装。当前 pip wheel 未链接 CUDA runtime，
       故 CUDA 后端仅做 build 配置演示，真实运行需源码编译 TVM 并启用 CUDA runtime。）

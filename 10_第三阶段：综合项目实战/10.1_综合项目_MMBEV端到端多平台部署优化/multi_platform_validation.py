@@ -1,8 +1,8 @@
 # 综合项目：多平台验证结果汇总
 #
 # 运行：
-#   cd /data/liyangyang/ai_infra/10_第三阶段：综合项目实战
-#   /data/liyangyang/qwen35_env/bin/python 10.1_综合项目_MMBEV端到端多平台部署优化/multi_platform_validation.py
+#   cd /data/ai_infra/10_第三阶段：综合项目实战
+#   /data/qwen35_env/bin/python 10.1_综合项目_MMBEV端到端多平台部署优化/multi_platform_validation.py
 
 
 def check(name, value, threshold, lower_is_better=True):

@@ -2,8 +2,8 @@
 """4.8 Relay 到 Relax Pass 迁移实战：Relax Function Pass 注册示例
 
 运行：
-    cd /data/liyangyang/ai_infra/03_AI编译器
-    /data/liyangyang/qwen35_env/bin/python 3.8_Relay到Relax_Pass迁移实战/relay_relax_pass_compare.py
+    cd /data/ai_infra/03_AI编译器
+    /data/qwen35_env/bin/python 3.8_Relay到Relax_Pass迁移实战/relay_relax_pass_compare.py
 
 依赖：tvm（已在 qwen35_env 中安装：apache-tvm 0.25.0，仅含 Relax）
 """

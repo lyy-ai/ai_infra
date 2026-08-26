@@ -1,8 +1,8 @@
 # 10.1 CI/CD 与自动化：版本名称生成器
 #
 # 运行：
-#   cd /data/liyangyang/ai_infra/09_企业级工程体系
-#   /data/liyangyang/qwen35_env/bin/python 9.1_CI_CD与自动化/version_manager.py
+#   cd /data/ai_infra/09_企业级工程体系
+#   /data/qwen35_env/bin/python 9.1_CI_CD与自动化/version_manager.py
 
 
 def make_version(model_version, backend, precision, tp, pp, commit_short="a1b2c3d"):

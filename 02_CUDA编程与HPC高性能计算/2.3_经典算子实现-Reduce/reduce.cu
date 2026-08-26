@@ -1,7 +1,7 @@
 // 3.3 经典算子实现 - Reduce：共享内存 + Warp Shuffle 归约
 //
 // 编译运行：
-//   cd /data/liyangyang/ai_infra/CUDA编程与HPC高性能计算
+//   cd /data/ai_infra/CUDA编程与HPC高性能计算
 //   nvcc -o /tmp/reduce 3.3_经典算子实现-Reduce/reduce.cu && /tmp/reduce
 #include <cuda_runtime.h>
 #include <stdio.h>

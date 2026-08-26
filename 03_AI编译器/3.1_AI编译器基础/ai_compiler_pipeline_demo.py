@@ -2,8 +2,8 @@
 """4.1 AI 编译器基础：三段式编译 Pipeline 示例（Relax 版）
 
 运行：
-    cd /data/liyangyang/ai_infra/03_AI编译器/3.1_AI编译器基础
-    /data/liyangyang/qwen35_env/bin/python ai_compiler_pipeline_demo.py
+    cd /data/ai_infra/03_AI编译器/3.1_AI编译器基础
+    /data/qwen35_env/bin/python ai_compiler_pipeline_demo.py
 
 依赖：tvm, onnx（已在 qwen35_env 中安装：apache-tvm 0.25.0，仅含 Relax）
 """

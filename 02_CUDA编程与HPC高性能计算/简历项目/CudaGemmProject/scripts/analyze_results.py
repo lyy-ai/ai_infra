@@ -1,5 +1,5 @@
 # 汇总 CUDA benchmark 与 cuBLAS benchmark，生成 results/benchmark_summary.md
-# 运行：/data/liyangyang/qwen35_env/bin/python scripts/analyze_results.py
+# 运行：/data/qwen35_env/bin/python scripts/analyze_results.py
 import json
 import os
 

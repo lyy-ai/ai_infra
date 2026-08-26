@@ -117,9 +117,9 @@ pip install vllm
 ## 运行示例
 
 ```bash
-source /data/liyangyang/qwen35_env/bin/activate
+source /data/qwen35_env/bin/activate
 
-cd /data/liyangyang/ai_infra/05_LLM推理与Serving
+cd /data/ai_infra/05_LLM推理与Serving
 
 # 非 vLLM 示例，直接运行即可
 python 5.1_LLM推理基础/kv_cache_analysis.py
@@ -141,11 +141,11 @@ python 5.10_端侧与多模态推理/vla_action_budget_estimator.py
 python 5.10_端侧与多模态推理/edge_colocated_scheduler.py
 
 # vLLM 相关示例，建议显式设置 PATH 以使用 venv 内的 ninja
-PATH=/data/liyangyang/qwen35_env/bin:$PATH python 5.2_PagedAttention与KVCache管理/vllm_basic_inference.py
-PATH=/data/liyangyang/qwen35_env/bin:$PATH python 5.2_PagedAttention与KVCache管理/vllm_vs_transformers_benchmark.py
-PATH=/data/liyangyang/qwen35_env/bin:$PATH python 5.3_ContinuousBatching/vllm_continuous_batching.py
-PATH=/data/liyangyang/qwen35_env/bin:$PATH python 5.4_SpeculativeDecoding/vllm_speculative_decoding.py
-PATH=/data/liyangyang/qwen35_env/bin:$PATH python 5.5_PrefixCache/vllm_prefix_cache.py
+PATH=/data/qwen35_env/bin:$PATH python 5.2_PagedAttention与KVCache管理/vllm_basic_inference.py
+PATH=/data/qwen35_env/bin:$PATH python 5.2_PagedAttention与KVCache管理/vllm_vs_transformers_benchmark.py
+PATH=/data/qwen35_env/bin:$PATH python 5.3_ContinuousBatching/vllm_continuous_batching.py
+PATH=/data/qwen35_env/bin:$PATH python 5.4_SpeculativeDecoding/vllm_speculative_decoding.py
+PATH=/data/qwen35_env/bin:$PATH python 5.5_PrefixCache/vllm_prefix_cache.py
 
 # 项目：Qwen2-0.5B vLLM 集群（需先启动服务）
 # bash 简历项目/start_qwen2_vllm_server.sh
@@ -154,11 +154,11 @@ PATH=/data/liyangyang/qwen35_env/bin:$PATH python 5.5_PrefixCache/vllm_prefix_ca
 
 # 项目：Qwen2-0.5B vLLM 工程化离线 benchmark（已生成 results/offline_throughput.json）
 # cd 简历项目/Qwen2VLLMClusterProject
-# PATH=/data/liyangyang/qwen35_env/bin:$PATH python scripts/run_offline_benchmark.py
-# PATH=/data/liyangyang/qwen35_env/bin:$PATH python scripts/analyze_results.py
+# PATH=/data/qwen35_env/bin:$PATH python scripts/run_offline_benchmark.py
+# PATH=/data/qwen35_env/bin:$PATH python scripts/analyze_results.py
 
 # 如需固定 GPU，可设置 CUDA_VISIBLE_DEVICES；vllm_env_helper 会在主进程选择空闲显存最多的 GPU
-# CUDA_VISIBLE_DEVICES=1 PATH=/data/liyangyang/qwen35_env/bin:$PATH python 5.2_PagedAttention与KVCache管理/vllm_basic_inference.py
+# CUDA_VISIBLE_DEVICES=1 PATH=/data/qwen35_env/bin:$PATH python 5.2_PagedAttention与KVCache管理/vllm_basic_inference.py
 ```
 
 ## 课程目标

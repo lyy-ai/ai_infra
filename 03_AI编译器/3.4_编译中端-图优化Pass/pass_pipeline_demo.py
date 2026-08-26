@@ -2,8 +2,8 @@
 """4.4 编译中端 - 图优化 Pass：Relax Pass Pipeline 示例
 
 运行：
-    cd /data/liyangyang/ai_infra/03_AI编译器
-    /data/liyangyang/qwen35_env/bin/python 3.4_编译中端-图优化Pass/pass_pipeline_demo.py
+    cd /data/ai_infra/03_AI编译器
+    /data/qwen35_env/bin/python 3.4_编译中端-图优化Pass/pass_pipeline_demo.py
 
 依赖：tvm, onnx（已在 qwen35_env 中安装）
 """

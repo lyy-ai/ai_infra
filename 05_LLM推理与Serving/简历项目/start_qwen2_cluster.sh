@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-MODEL_PATH=${MODEL_PATH:-/data/liyangyang/models/Qwen2-0.5B-Instruct}
+MODEL_PATH=${MODEL_PATH:-/data/models/Qwen2-0.5B-Instruct}
 GPU_IDS=${GPU_IDS:-"0"}
 PORTS=${PORTS:-"8000"}
 PID_FILE=${PID_FILE:-vllm_qwen2_cluster.pids}

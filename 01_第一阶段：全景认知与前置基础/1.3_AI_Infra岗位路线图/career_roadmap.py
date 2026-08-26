@@ -1,7 +1,7 @@
 # 1.3 AI Infra 岗位路线图
 #
 # 运行：
-#   /data/liyangyang/qwen35_env/bin/python 1.3_AI_Infra岗位路线图/career_roadmap.py
+#   /data/qwen35_env/bin/python 1.3_AI_Infra岗位路线图/career_roadmap.py
 
 
 LEVELS = [

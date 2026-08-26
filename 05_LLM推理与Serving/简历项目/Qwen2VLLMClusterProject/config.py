@@ -1,4 +1,4 @@
-MODEL_PATH = "/data/liyangyang/models/Qwen2-0.5B-Instruct"
+MODEL_PATH = "/data/models/Qwen2-0.5B-Instruct"
 SERVED_MODEL_NAME = "qwen2-0.5b-instruct"
 RESULTS_DIR = "results"
 

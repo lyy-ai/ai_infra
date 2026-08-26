@@ -43,8 +43,8 @@
 每个子专题目录下都有 `images/` 演示图；如需重新生成或改配色，运行：
 
 ```bash
-source /data/liyangyang/qwen35_env/bin/activate
-python /data/liyangyang/ai_infra/06_分布式训练/tools/generate_distributed_training_diagrams.py
+source /data/qwen35_env/bin/activate
+python /data/ai_infra/06_分布式训练/tools/generate_distributed_training_diagrams.py
 ```
 
 ## 运行环境
@@ -58,14 +58,14 @@ python /data/liyangyang/ai_infra/06_分布式训练/tools/generate_distributed_t
 激活环境：
 
 ```bash
-source /data/liyangyang/qwen35_env/bin/activate
+source /data/qwen35_env/bin/activate
 ```
 
 ## 运行示例
 
 ```bash
-source /data/liyangyang/qwen35_env/bin/activate
-cd /data/liyangyang/ai_infra/06_分布式训练
+source /data/qwen35_env/bin/activate
+cd /data/ai_infra/06_分布式训练
 
 python 6.1_分布式训练总论/memory_estimator.py
 python 6.2_数据并行/train_ddp.py

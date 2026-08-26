@@ -1,7 +1,7 @@
 # 2.7 工程工具链：环境体检
 #
 # 运行：
-#   /data/liyangyang/qwen35_env/bin/python 1.11_工程工具链/toolchain_check.py
+#   /data/qwen35_env/bin/python 1.11_工程工具链/toolchain_check.py
 
 import shutil
 

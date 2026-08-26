@@ -1,8 +1,8 @@
 # 10.3 Profiling 平台：统一事件 Schema
 #
 # 运行：
-#   cd /data/liyangyang/ai_infra/09_企业级工程体系
-#   /data/liyangyang/qwen35_env/bin/python 9.3_Profiling平台/profiling_data_schema.py
+#   cd /data/ai_infra/09_企业级工程体系
+#   /data/qwen35_env/bin/python 9.3_Profiling平台/profiling_data_schema.py
 
 import json
 from dataclasses import dataclass, asdict

@@ -37,8 +37,8 @@
 每个子专题目录下都有 `images/` 演示图；如需重新生成或改配色，运行：
 
 ```bash
-source /data/liyangyang/qwen35_env/bin/activate
-python /data/liyangyang/ai_infra/08_多平台适配/tools/generate_multi_platform_diagrams.py
+source /data/qwen35_env/bin/activate
+python /data/ai_infra/08_多平台适配/tools/generate_multi_platform_diagrams.py
 ```
 
 ## 运行环境
@@ -52,14 +52,14 @@ python /data/liyangyang/ai_infra/08_多平台适配/tools/generate_multi_platfor
 激活环境：
 
 ```bash
-source /data/liyangyang/qwen35_env/bin/activate
+source /data/qwen35_env/bin/activate
 ```
 
 ## 运行示例
 
 ```bash
-source /data/liyangyang/qwen35_env/bin/activate
-cd /data/liyangyang/ai_infra/08_多平台适配
+source /data/qwen35_env/bin/activate
+cd /data/ai_infra/08_多平台适配
 
 python 8.1_NVIDIA_GPU部署/tensorrt_build_check.py
 python 8.2_边缘部署_Jetson_Orin/jetson_power_latency_model.py

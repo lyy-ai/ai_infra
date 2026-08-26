@@ -1,4 +1,4 @@
-MODEL_PATH = "/data/liyangyang/models/Qwen3.5-9B"
+MODEL_PATH = "/data/models/Qwen3.5-9B"
 RESULTS_DIR = "results"
 MAX_NEW_TOKENS = 128
 TEMPERATURE = 0.7

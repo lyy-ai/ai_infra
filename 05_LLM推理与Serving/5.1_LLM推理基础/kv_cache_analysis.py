@@ -11,7 +11,7 @@ import torch
 from transformers import AutoConfig
 
 
-MODEL_PATH = "/data/liyangyang/models/Qwen3.5-9B"
+MODEL_PATH = "/data/models/Qwen3.5-9B"
 BYTES_PER_FP16 = 2
 BYTES_PER_FP32 = 4
 

@@ -1,8 +1,8 @@
 # 9.1 NVIDIA GPU 部署：TensorRT / GPU 环境检查
 #
 # 运行：
-#   cd /data/liyangyang/ai_infra/08_多平台适配
-#   /data/liyangyang/qwen35_env/bin/python 8.1_NVIDIA_GPU部署/tensorrt_build_check.py
+#   cd /data/ai_infra/08_多平台适配
+#   /data/qwen35_env/bin/python 8.1_NVIDIA_GPU部署/tensorrt_build_check.py
 
 import sys
 

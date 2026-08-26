@@ -1,7 +1,7 @@
 # 2.3 Transformer：Attention 复杂度与 KV Cache 计算
 #
 # 运行：
-#   /data/liyangyang/qwen35_env/bin/python 1.7_Transformer架构详解/attention_complexity.py
+#   /data/qwen35_env/bin/python 1.7_Transformer架构详解/attention_complexity.py
 
 
 def attention_cost(seq_len, head_dim=128, n_heads=32):

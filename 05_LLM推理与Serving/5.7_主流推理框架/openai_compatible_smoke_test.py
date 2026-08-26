@@ -10,7 +10,7 @@ OpenAI 兼容接口冒烟测试示例。
 
     RUN_SMOKE=1 \
     OPENAI_BASE_URL=http://localhost:8000/v1 \
-    MODEL_NAME=/data/liyangyang/models/Qwen3.5-9B \
+    MODEL_NAME=/data/models/Qwen3.5-9B \
     python openai_compatible_smoke_test.py
 
 可选环境变量：
@@ -38,7 +38,7 @@ def build_request_body(model_name: str, prompt: str) -> bytes:
 def run_smoke_test() -> int:
     """调用 OpenAI-compatible endpoint 并打印返回。"""
     base_url = os.environ.get("OPENAI_BASE_URL", "http://localhost:8000/v1").rstrip("/")
-    model_name = os.environ.get("MODEL_NAME", "/data/liyangyang/models/Qwen3.5-9B")
+    model_name = os.environ.get("MODEL_NAME", "/data/models/Qwen3.5-9B")
     prompt = os.environ.get("PROMPT", "请用一句话介绍 KV Cache。")
     timeout = float(os.environ.get("TIMEOUT_SECONDS", "30"))
 
@@ -79,7 +79,7 @@ def main() -> int:
         print("Set RUN_SMOKE=1 to run the smoke test against a running OpenAI-compatible server.")
         print("Example:")
         print("  RUN_SMOKE=1 OPENAI_BASE_URL=http://localhost:8000/v1 \\")
-        print("  MODEL_NAME=/data/liyangyang/models/Qwen3.5-9B \\")
+        print("  MODEL_NAME=/data/models/Qwen3.5-9B \\")
         print("  python examples/openai_compatible_smoke_test.py")
         return 0
     return run_smoke_test()

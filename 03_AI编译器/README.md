@@ -62,7 +62,7 @@ python tools/generate_ai_compiler_diagrams.py
 激活环境：
 
 ```bash
-source /data/liyangyang/qwen35_env/bin/activate
+source /data/qwen35_env/bin/activate
 ```
 
 ⚠️ 注意：当前安装的 `apache-tvm-ffi==0.1.12` 与环境中 `vllm==0.25.0` 要求的 `apache-tvm-ffi==0.1.9` 存在冲突。若需运行 vllm，请先执行 `pip install apache-tvm-ffi==0.1.9` 降级；运行本专题代码时再升级回 `0.1.12`。
@@ -70,8 +70,8 @@ source /data/liyangyang/qwen35_env/bin/activate
 ## 运行示例
 
 ```bash
-source /data/liyangyang/qwen35_env/bin/activate
-cd /data/liyangyang/ai_infra/03_AI编译器
+source /data/qwen35_env/bin/activate
+cd /data/ai_infra/03_AI编译器
 
 python 3.1_AI编译器基础/ai_compiler_pipeline_demo.py
 python 3.2_TVM架构拆解/tvm_ir_compare.py

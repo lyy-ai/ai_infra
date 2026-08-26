@@ -1,8 +1,8 @@
 # 10.2 性能回归平台：git bisect 辅助脚本
 #
 # 运行：
-#   cd /data/liyangyang/ai_infra/09_企业级工程体系
-#   /data/liyangyang/qwen35_env/bin/python 9.2_性能回归平台/git_bisect_helper.py
+#   cd /data/ai_infra/09_企业级工程体系
+#   /data/qwen35_env/bin/python 9.2_性能回归平台/git_bisect_helper.py
 
 
 def print_bisect_command(good_commit, bad_commit, script_path="scripts/check_regression.py"):

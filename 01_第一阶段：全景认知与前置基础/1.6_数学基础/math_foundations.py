@@ -1,7 +1,7 @@
 # 2.2 数学基础：工程数学验证
 #
 # 运行：
-#   /data/liyangyang/qwen35_env/bin/python 1.6_数学基础/math_foundations.py
+#   /data/qwen35_env/bin/python 1.6_数学基础/math_foundations.py
 
 import numpy as np
 

@@ -1,7 +1,7 @@
 # 2.4 PyTorch：autograd / 显存 / profiler 演示
 #
 # 运行：
-#   /data/liyangyang/qwen35_env/bin/python 1.8_PyTorch框架/pytorch_infra_demo.py
+#   /data/qwen35_env/bin/python 1.8_PyTorch框架/pytorch_infra_demo.py
 
 import torch
 import torch.nn as nn

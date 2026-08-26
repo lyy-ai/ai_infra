@@ -40,4 +40,4 @@
 
 - 每个专题内按子目录编号（如 3.1 → 3.8）顺序学习。
 - 每个子目录 = 讲义 md + 可运行代码 + images 演示图。
-- 运行环境：除特别说明外，统一使用 `/data/liyangyang/qwen35_env/bin/python`。
+- 运行环境：除特别说明外，统一使用 `/data/qwen35_env/bin/python`。

@@ -1,5 +1,5 @@
 # 单卡 baseline：吞吐 / 显存 / step 分解
-# 运行：/data/liyangyang/qwen35_env/bin/python src/train_single.py
+# 运行：/data/qwen35_env/bin/python src/train_single.py
 import argparse
 import json
 import os

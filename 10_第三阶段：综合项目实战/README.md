@@ -25,8 +25,8 @@
 生成演示图：
 
 ```bash
-source /data/liyangyang/qwen35_env/bin/activate
-python /data/liyangyang/ai_infra/10_第三阶段：综合项目实战/tools/generate_comprehensive_project_diagrams.py
+source /data/qwen35_env/bin/activate
+python /data/ai_infra/10_第三阶段：综合项目实战/tools/generate_comprehensive_project_diagrams.py
 ```
 
 ## 运行环境
@@ -39,8 +39,8 @@ python /data/liyangyang/ai_infra/10_第三阶段：综合项目实战/tools/gene
 ## 运行示例
 
 ```bash
-source /data/liyangyang/qwen35_env/bin/activate
-cd /data/liyangyang/ai_infra/10_第三阶段：综合项目实战
+source /data/qwen35_env/bin/activate
+cd /data/ai_infra/10_第三阶段：综合项目实战
 
 python 10.1_综合项目_MMBEV端到端多平台部署优化/end_to_end_pipeline.py
 python 10.1_综合项目_MMBEV端到端多平台部署优化/hpc_kernel_sim.py

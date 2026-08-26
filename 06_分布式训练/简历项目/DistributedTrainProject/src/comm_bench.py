@@ -1,5 +1,5 @@
 # NCCL AllReduce 带宽实测：1MB - 512MB，输出 algbw / busbw
-# 运行：/data/liyangyang/qwen35_env/bin/torchrun --nproc_per_node=2 src/comm_bench.py
+# 运行：/data/qwen35_env/bin/torchrun --nproc_per_node=2 src/comm_bench.py
 import json
 import os
 import time

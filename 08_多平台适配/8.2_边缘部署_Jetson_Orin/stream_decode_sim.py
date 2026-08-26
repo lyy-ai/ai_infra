@@ -1,8 +1,8 @@
 # 9.2 边缘部署 - Jetson Orin：流式 decode 延迟模拟
 #
 # 运行：
-#   cd /data/liyangyang/ai_infra/08_多平台适配
-#   /data/liyangyang/qwen35_env/bin/python 8.2_边缘部署_Jetson_Orin/stream_decode_sim.py
+#   cd /data/ai_infra/08_多平台适配
+#   /data/qwen35_env/bin/python 8.2_边缘部署_Jetson_Orin/stream_decode_sim.py
 
 import time
 import random

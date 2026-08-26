@@ -2,7 +2,7 @@
 
 ## 项目概述
 
-本项目以 **Qwen2-0.5B-Instruct**（`/data/liyangyang/models/Qwen2-0.5B-Instruct`）为对象，搭建一套可复现的 vLLM 推理服务实验闭环：
+本项目以 **Qwen2-0.5B-Instruct**（`/data/models/Qwen2-0.5B-Instruct`）为对象，搭建一套可复现的 vLLM 推理服务实验闭环：
 
 - 单实例 vLLM OpenAI-compatible 服务启动脚本。
 - 多实例集群启动脚本与 Nginx `least_conn` 路由示例。
@@ -44,9 +44,9 @@
 ### 2.1 离线吞吐 benchmark
 
 ```bash
-cd /data/liyangyang/ai_infra/05_LLM推理与Serving/简历项目/Qwen2VLLMClusterProject
-PATH=/data/liyangyang/qwen35_env/bin:$PATH python scripts/run_offline_benchmark.py
-PATH=/data/liyangyang/qwen35_env/bin:$PATH python scripts/analyze_results.py
+cd /data/ai_infra/05_LLM推理与Serving/简历项目/Qwen2VLLMClusterProject
+PATH=/data/qwen35_env/bin:$PATH python scripts/run_offline_benchmark.py
+PATH=/data/qwen35_env/bin:$PATH python scripts/analyze_results.py
 ```
 
 说明：
@@ -58,7 +58,7 @@ PATH=/data/liyangyang/qwen35_env/bin:$PATH python scripts/analyze_results.py
 ### 2.2 单实例服务
 
 ```bash
-cd /data/liyangyang/ai_infra/05_LLM推理与Serving/简历项目/Qwen2VLLMClusterProject
+cd /data/ai_infra/05_LLM推理与Serving/简历项目/Qwen2VLLMClusterProject
 bash scripts/start_qwen2_vllm_server.sh
 ```
 
@@ -66,7 +66,7 @@ bash scripts/start_qwen2_vllm_server.sh
 
 | 变量 | 默认值 | 说明 |
 |------|--------|------|
-| `MODEL_PATH` | `/data/liyangyang/models/Qwen2-0.5B-Instruct` | 模型路径 |
+| `MODEL_PATH` | `/data/models/Qwen2-0.5B-Instruct` | 模型路径 |
 | `PORT` | `8000` | 服务端口 |
 | `GPU_ID` | `0` | 使用哪张卡 |
 | `MAX_NUM_SEQS` | `128` | vLLM 最大并发序列数 |
@@ -77,7 +77,7 @@ bash scripts/start_qwen2_vllm_server.sh
 ### 2.3 多实例集群
 
 ```bash
-cd /data/liyangyang/ai_infra/05_LLM推理与Serving/简历项目/Qwen2VLLMClusterProject
+cd /data/ai_infra/05_LLM推理与Serving/简历项目/Qwen2VLLMClusterProject
 GPU_IDS="0 1" PORTS="8000 8001" bash scripts/start_qwen2_cluster.sh
 ```
 

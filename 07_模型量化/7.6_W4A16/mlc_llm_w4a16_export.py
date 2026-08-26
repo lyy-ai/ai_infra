@@ -91,7 +91,7 @@ def stream_with_model(mlc_model_dir: str):
 if __name__ == "__main__":
     # 请根据实际情况修改本地路径
     HF_MODEL = "/path/to/your-hf-model"
-    MLC_DIR = "/data/liyangyang/ai_infra/W4A16/your-model-w4a16-mlc"
+    MLC_DIR = "/data/ai_infra/W4A16/your-model-w4a16-mlc"
 
     # 1) 导出（只需执行一次，需要安装 mlc-llm）
     # export_w4a16_via_cli(HF_MODEL, MLC_DIR, quantization="q4f16_1", conv_template="llama-2")

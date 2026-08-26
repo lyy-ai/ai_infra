@@ -1,8 +1,8 @@
 # 9.3 Ascend NPU 适配：算子映射检查
 #
 # 运行：
-#   cd /data/liyangyang/ai_infra/08_多平台适配
-#   /data/liyangyang/qwen35_env/bin/python 8.3_Ascend_NPU适配/operator_mapping_check.py
+#   cd /data/ai_infra/08_多平台适配
+#   /data/qwen35_env/bin/python 8.3_Ascend_NPU适配/operator_mapping_check.py
 
 
 def check_operators(onnx_ops, cann_support):

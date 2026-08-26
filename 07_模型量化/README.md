@@ -29,8 +29,8 @@
 ## 运行示例
 
 ```bash
-source /data/liyangyang/qwen35_env/bin/activate
-cd /data/liyangyang/ai_infra/07_模型量化
+source /data/qwen35_env/bin/activate
+cd /data/ai_infra/07_模型量化
 
 python 7.1_量化基础/pytorch_ptq_demo.py
 python 7.2_PTQ/int8_ptq_manual.py

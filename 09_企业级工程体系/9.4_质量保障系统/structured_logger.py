@@ -1,8 +1,8 @@
 # 10.4 质量保障系统：结构化日志
 #
 # 运行：
-#   cd /data/liyangyang/ai_infra/09_企业级工程体系
-#   /data/liyangyang/qwen35_env/bin/python 9.4_质量保障系统/structured_logger.py
+#   cd /data/ai_infra/09_企业级工程体系
+#   /data/qwen35_env/bin/python 9.4_质量保障系统/structured_logger.py
 
 import json
 from datetime import datetime, timezone

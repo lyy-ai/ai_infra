@@ -5,7 +5,7 @@ vLLM Speculative Decoding 示例。
 本脚本演示使用 vLLM 的 speculative decoding 功能进行推理。
 
 运行方式：
-    PATH=/data/liyangyang/qwen35_env/bin:$PATH python examples/vllm_speculative_decoding.py
+    PATH=/data/qwen35_env/bin:$PATH python examples/vllm_speculative_decoding.py
 
 说明：
 - 脚本已导入 vllm_env_helper 以完成 vLLM 环境初始化（CUDA 13 库预加载、ninja PATH、GPU 选择）。
@@ -31,7 +31,7 @@ except ImportError:
     sys.exit(1)
 
 
-TARGET_MODEL_PATH = "/data/liyangyang/models/Qwen3.5-9B"
+TARGET_MODEL_PATH = "/data/models/Qwen3.5-9B"
 # 如果配置为 draft_model，请提供一个比 target 小的模型路径；
 # 空字符串表示使用 ngram（基于已生成 token 的 n-gram 池进行投机），无需额外模型。
 SPECULATIVE_MODEL_PATH = ""

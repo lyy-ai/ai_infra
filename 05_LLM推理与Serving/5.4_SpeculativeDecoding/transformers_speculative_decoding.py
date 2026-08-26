@@ -11,7 +11,7 @@
     python examples/transformers_speculative_decoding.py
 
 注意：
-- 默认使用 /data/liyangyang/models/Qwen3.5-9B 作为 Target。
+- 默认使用 /data/models/Qwen3.5-9B 作为 Target。
 - 如果没有指定 Draft Model，会复用 Target 作为 Draft（用于演示机制）。
 - 实际生产环境中应使用一个更小的同系列模型作为 Draft。
 - 运行需要 GPU，耗时较长。
@@ -22,7 +22,7 @@ import torch
 from transformers import AutoModelForCausalLM, AutoTokenizer
 
 
-TARGET_MODEL_PATH = "/data/liyangyang/models/Qwen3.5-9B"
+TARGET_MODEL_PATH = "/data/models/Qwen3.5-9B"
 # 如果为空，则复用 Target Model 作为 Draft（演示用）
 DRAFT_MODEL_PATH = ""
 

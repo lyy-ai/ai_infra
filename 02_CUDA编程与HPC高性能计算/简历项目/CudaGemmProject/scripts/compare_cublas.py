@@ -1,5 +1,5 @@
 # 用 PyTorch（cuBLAS）在相同 size 上 benchmark，作为框架侧参考
-# 运行：/data/liyangyang/qwen35_env/bin/python scripts/compare_cublas.py
+# 运行：/data/qwen35_env/bin/python scripts/compare_cublas.py
 import json
 import os
 

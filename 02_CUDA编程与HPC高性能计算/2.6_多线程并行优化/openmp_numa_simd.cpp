@@ -1,7 +1,7 @@
 // 3.6 多线程并行优化：OpenMP + NUMA + SIMD 示例
 //
 // 编译运行：
-//   cd /data/liyangyang/ai_infra/CUDA编程与HPC高性能计算
+//   cd /data/ai_infra/CUDA编程与HPC高性能计算
 //   g++ -O3 -fopenmp -march=native -o /tmp/openmp_numa_simd 3.6_多线程并行优化/openmp_numa_simd.cpp && /tmp/openmp_numa_simd
 #include <omp.h>
 #include <immintrin.h>

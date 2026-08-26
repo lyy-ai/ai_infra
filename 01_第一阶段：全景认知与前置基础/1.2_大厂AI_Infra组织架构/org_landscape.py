@@ -1,7 +1,7 @@
 # 1.2 大厂 AI Infra 组织架构速查
 #
 # 运行：
-#   /data/liyangyang/qwen35_env/bin/python 1.2_大厂AI_Infra组织架构/org_landscape.py
+#   /data/qwen35_env/bin/python 1.2_大厂AI_Infra组织架构/org_landscape.py
 
 
 ORGS = [

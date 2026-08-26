@@ -1,5 +1,5 @@
 # DDP 多卡训练：吞吐 / 每 rank 显存 / step 分解
-# 运行：/data/liyangyang/qwen35_env/bin/torchrun --nproc_per_node=2 src/train_ddp.py
+# 运行：/data/qwen35_env/bin/torchrun --nproc_per_node=2 src/train_ddp.py
 import argparse
 import json
 import os

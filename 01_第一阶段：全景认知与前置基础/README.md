@@ -31,8 +31,8 @@
 每个子专题目录下都有 `images/` 演示图；重新生成：
 
 ```bash
-source /data/liyangyang/qwen35_env/bin/activate
-python /data/liyangyang/ai_infra/01_第一阶段：全景认知与前置基础/tools/generate_foundation_diagrams.py
+source /data/qwen35_env/bin/activate
+python /data/ai_infra/01_第一阶段：全景认知与前置基础/tools/generate_foundation_diagrams.py
 ```
 
 ## 运行环境
@@ -42,8 +42,8 @@ python /data/liyangyang/ai_infra/01_第一阶段：全景认知与前置基础/t
 ## 运行示例
 
 ```bash
-source /data/liyangyang/qwen35_env/bin/activate
-cd /data/liyangyang/ai_infra/01_第一阶段：全景认知与前置基础
+source /data/qwen35_env/bin/activate
+cd /data/ai_infra/01_第一阶段：全景认知与前置基础
 
 python 1.1_什么是AI_Infra/infra_tradeoff_calc.py
 python 1.2_大厂AI_Infra组织架构/org_landscape.py

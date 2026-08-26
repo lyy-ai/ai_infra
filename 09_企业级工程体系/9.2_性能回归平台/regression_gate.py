@@ -1,8 +1,8 @@
 # 10.2 性能回归平台：回归门禁判定
 #
 # 运行：
-#   cd /data/liyangyang/ai_infra/09_企业级工程体系
-#   /data/liyangyang/qwen35_env/bin/python 9.2_性能回归平台/regression_gate.py
+#   cd /data/ai_infra/09_企业级工程体系
+#   /data/qwen35_env/bin/python 9.2_性能回归平台/regression_gate.py
 
 
 def check_regression(baseline, current, thresholds):

@@ -28,8 +28,8 @@
 生成演示图：
 
 ```bash
-source /data/liyangyang/qwen35_env/bin/activate
-python /data/liyangyang/ai_infra/11_第四阶段：简历项目包装与面试冲刺/tools/generate_interview_sprint_diagrams.py
+source /data/qwen35_env/bin/activate
+python /data/ai_infra/11_第四阶段：简历项目包装与面试冲刺/tools/generate_interview_sprint_diagrams.py
 ```
 
 ## 运行环境
@@ -39,8 +39,8 @@ python /data/liyangyang/ai_infra/11_第四阶段：简历项目包装与面试�
 ## 运行示例
 
 ```bash
-source /data/liyangyang/qwen35_env/bin/activate
-cd /data/liyangyang/ai_infra/11_第四阶段：简历项目包装与面试冲刺
+source /data/qwen35_env/bin/activate
+cd /data/ai_infra/11_第四阶段：简历项目包装与面试冲刺
 
 python 11.1_简历写作指导/star_bullet_generator.py
 python 11.1_简历写作指导/jd_keyword_matcher.py

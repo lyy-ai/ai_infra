@@ -1,8 +1,8 @@
 # 7.1 分布式训练总论：训练显存占用估算
 #
 # 运行：
-#   cd /data/liyangyang/ai_infra/06_分布式训练
-#   /data/liyangyang/qwen35_env/bin/python 6.1_分布式训练总论/memory_estimator.py
+#   cd /data/ai_infra/06_分布式训练
+#   /data/qwen35_env/bin/python 6.1_分布式训练总论/memory_estimator.py
 
 
 def estimate_training_memory(params_b, batch_size, seq_len, hidden,

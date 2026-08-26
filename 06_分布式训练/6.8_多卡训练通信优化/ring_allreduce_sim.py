@@ -1,8 +1,8 @@
 # 7.8 多卡训练通信优化：Ring AllReduce 模拟
 #
 # 运行：
-#   cd /data/liyangyang/ai_infra/06_分布式训练
-#   /data/liyangyang/qwen35_env/bin/python 6.8_多卡训练通信优化/ring_allreduce_sim.py
+#   cd /data/ai_infra/06_分布式训练
+#   /data/qwen35_env/bin/python 6.8_多卡训练通信优化/ring_allreduce_sim.py
 import numpy as np
 
 

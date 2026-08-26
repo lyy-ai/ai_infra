@@ -2,8 +2,8 @@
 """4.3 编译前端：自定义算子注册示例（Relax 版）
 
 运行：
-    cd /data/liyangyang/ai_infra/03_AI编译器
-    /data/liyangyang/qwen35_env/bin/python 3.3_编译前端/custom_op_registration.py
+    cd /data/ai_infra/03_AI编译器
+    /data/qwen35_env/bin/python 3.3_编译前端/custom_op_registration.py
 
 依赖：tvm（已在 qwen35_env 中安装）
 """

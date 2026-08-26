@@ -1,8 +1,8 @@
 # 9.2 边缘部署 - Jetson Orin：功耗与延迟估算
 #
 # 运行：
-#   cd /data/liyangyang/ai_infra/08_多平台适配
-#   /data/liyangyang/qwen35_env/bin/python 8.2_边缘部署_Jetson_Orin/jetson_power_latency_model.py
+#   cd /data/ai_infra/08_多平台适配
+#   /data/qwen35_env/bin/python 8.2_边缘部署_Jetson_Orin/jetson_power_latency_model.py
 
 
 def estimate_orin_latency(model_params_b, bits, tops, utilization=0.6, seq_len=512):

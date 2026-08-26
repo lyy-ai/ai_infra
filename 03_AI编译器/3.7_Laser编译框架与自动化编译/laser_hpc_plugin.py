@@ -2,8 +2,8 @@
 """4.7 Laser 编译框架：HPC Plugin 机制示例（Mock 版）
 
 运行：
-    cd /data/liyangyang/ai_infra/03_AI编译器
-    /data/liyangyang/qwen35_env/bin/python 3.7_Laser编译框架与自动化编译/laser_hpc_plugin.py
+    cd /data/ai_infra/03_AI编译器
+    /data/qwen35_env/bin/python 3.7_Laser编译框架与自动化编译/laser_hpc_plugin.py
 
 说明：
     - 真实项目中的 `laser.hpc` 为内部包，这里用 mock 实现演示 plugin 注册与匹配逻辑。

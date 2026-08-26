@@ -2,8 +2,8 @@
 """4.7 Laser 编译框架：最小配置示例（Mock 版）
 
 运行：
-    cd /data/liyangyang/ai_infra/03_AI编译器
-    /data/liyangyang/qwen35_env/bin/python 3.7_Laser编译框架与自动化编译/laser_minimal.py
+    cd /data/ai_infra/03_AI编译器
+    /data/qwen35_env/bin/python 3.7_Laser编译框架与自动化编译/laser_minimal.py
 
 说明：
     - 真实项目中的 `laser` 为内部框架，这里用 mock 实现演示配置解析与流水线。

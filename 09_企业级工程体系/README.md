@@ -38,8 +38,8 @@
 每个子专题目录下都有 `images/` 演示图；如需重新生成或改配色，运行：
 
 ```bash
-source /data/liyangyang/qwen35_env/bin/activate
-python /data/liyangyang/ai_infra/09_企业级工程体系/tools/generate_enterprise_engineering_diagrams.py
+source /data/qwen35_env/bin/activate
+python /data/ai_infra/09_企业级工程体系/tools/generate_enterprise_engineering_diagrams.py
 ```
 
 ## 运行环境
@@ -54,14 +54,14 @@ python /data/liyangyang/ai_infra/09_企业级工程体系/tools/generate_enterpr
 激活环境：
 
 ```bash
-source /data/liyangyang/qwen35_env/bin/activate
+source /data/qwen35_env/bin/activate
 ```
 
 ## 运行示例
 
 ```bash
-source /data/liyangyang/qwen35_env/bin/activate
-cd /data/liyangyang/ai_infra/09_企业级工程体系
+source /data/qwen35_env/bin/activate
+cd /data/ai_infra/09_企业级工程体系
 
 python 9.1_CI_CD与自动化/ci_pipeline_sim.py
 python 9.1_CI_CD与自动化/version_manager.py

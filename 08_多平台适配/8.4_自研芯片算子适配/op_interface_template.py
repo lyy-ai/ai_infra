@@ -1,8 +1,8 @@
 # 9.4 自研芯片算子适配：算子接口模板（Python 伪代码）
 #
 # 运行：
-#   cd /data/liyangyang/ai_infra/08_多平台适配
-#   /data/liyangyang/qwen35_env/bin/python 8.4_自研芯片算子适配/op_interface_template.py
+#   cd /data/ai_infra/08_多平台适配
+#   /data/qwen35_env/bin/python 8.4_自研芯片算子适配/op_interface_template.py
 
 import numpy as np
 from dataclasses import dataclass

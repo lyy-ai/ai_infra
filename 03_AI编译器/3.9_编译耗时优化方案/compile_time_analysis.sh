@@ -2,7 +2,7 @@
 # 4.9 编译耗时优化方案：分析每个 .cc 源文件的编译阶段耗时
 #
 # 运行：
-#   cd /data/liyangyang/ai_infra/03_AI编译器
+#   cd /data/ai_infra/03_AI编译器
 #   bash 3.9_编译耗时优化方案/compile_time_analysis.sh /path/to/cc_sources
 #
 # 输出：file, cc->out(s), out->aom(s), total(s)

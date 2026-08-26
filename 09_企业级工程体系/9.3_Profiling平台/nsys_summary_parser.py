@@ -1,8 +1,8 @@
 # 10.3 Profiling 平台：Nsight Systems Summary 解析模拟
 #
 # 运行：
-#   cd /data/liyangyang/ai_infra/09_企业级工程体系
-#   /data/liyangyang/qwen35_env/bin/python 9.3_Profiling平台/nsys_summary_parser.py
+#   cd /data/ai_infra/09_企业级工程体系
+#   /data/qwen35_env/bin/python 9.3_Profiling平台/nsys_summary_parser.py
 
 
 def parse_nsys_summary(text):

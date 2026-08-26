@@ -1,8 +1,8 @@
 # 综合项目：HPC 算子优化收益（BEV Pooling + 算子融合）
 #
 # 运行：
-#   cd /data/liyangyang/ai_infra/10_第三阶段：综合项目实战
-#   /data/liyangyang/qwen35_env/bin/python 10.1_综合项目_MMBEV端到端多平台部署优化/hpc_kernel_sim.py
+#   cd /data/ai_infra/10_第三阶段：综合项目实战
+#   /data/qwen35_env/bin/python 10.1_综合项目_MMBEV端到端多平台部署优化/hpc_kernel_sim.py
 
 
 def bev_pooling(grid, points, level):

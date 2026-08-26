@@ -1,8 +1,8 @@
 # 10.5 监控与告警：GPU 监控
 #
 # 运行：
-#   cd /data/liyangyang/ai_infra/09_企业级工程体系
-#   /data/liyangyang/qwen35_env/bin/python 9.5_监控与告警/gpu_monitor.py
+#   cd /data/ai_infra/09_企业级工程体系
+#   /data/qwen35_env/bin/python 9.5_监控与告警/gpu_monitor.py
 
 try:
     import pynvml

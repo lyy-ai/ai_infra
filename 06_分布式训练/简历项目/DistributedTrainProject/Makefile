@@ -1,6 +1,6 @@
 NVCC ?= /usr/local/cuda/bin/nvcc
-PY := /data/liyangyang/qwen35_env/bin/python
-TORCHRUN := /data/liyangyang/qwen35_env/bin/torchrun
+PY := /data/qwen35_env/bin/python
+TORCHRUN := /data/qwen35_env/bin/torchrun
 
 all: single ddp comm report
 

@@ -1,7 +1,7 @@
 // 4.9 编译耗时优化方案：GraphConstantPool 抽离常量加载示例
 //
 // 编译运行：
-//   cd /data/liyangyang/ai_infra/AI编译器
+//   cd /data/ai_infra/AI编译器
 //   g++ -O2 -std=c++17 4.9_编译耗时优化方案/constant_pool_demo.cpp -o /tmp/constant_pool_demo
 //   /tmp/constant_pool_demo
 #include <map>

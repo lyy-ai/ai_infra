@@ -1,7 +1,7 @@
 // 3.4 经典算子实现 - GEMM：Shared Memory Tiling SGEMM
 //
 // 编译运行：
-//   cd /data/liyangyang/ai_infra/CUDA编程与HPC高性能计算
+//   cd /data/ai_infra/CUDA编程与HPC高性能计算
 //   nvcc -o /tmp/sgemm_tiled 3.4_经典算子实现-GEMM/sgemm_tiled.cu && /tmp/sgemm_tiled
 #include <cuda_runtime.h>
 #include <stdio.h>

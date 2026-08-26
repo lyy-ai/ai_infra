@@ -1,7 +1,7 @@
 # 7.7 训练框架实战：PyTorch FSDP 示例
 #
 # 运行（需要多卡环境）：
-#   cd /data/liyangyang/ai_infra/06_分布式训练
+#   cd /data/ai_infra/06_分布式训练
 #   python -m torchrun --nproc_per_node=2 6.7_训练框架实战/fsdp_example.py
 import os
 import torch

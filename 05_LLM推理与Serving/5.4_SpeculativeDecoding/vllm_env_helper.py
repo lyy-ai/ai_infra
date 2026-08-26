@@ -103,12 +103,12 @@ def setup_vllm_env():
         if "libcudart.so.13" not in err_msg and "_C_stable_libtorch" not in err_msg:
             # 不是已知的库路径问题，直接报错
             print(f"Error: vLLM is not installed.\n{err_msg}")
-            print("Please install it with: /data/liyangyang/qwen35_env/bin/pip install vllm")
+            print("Please install it with: /data/qwen35_env/bin/pip install vllm")
             return False
 
     if not lib_dirs:
         print("Error: vLLM is not installed or cannot find required CUDA runtime library.")
-        print("Please install it with: /data/liyangyang/qwen35_env/bin/pip install vllm")
+        print("Please install it with: /data/qwen35_env/bin/pip install vllm")
         return False
 
     lib_dir = lib_dirs[0]

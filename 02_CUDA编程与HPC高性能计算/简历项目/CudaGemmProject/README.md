@@ -33,7 +33,7 @@ CudaGemmProject/
 ## 构建与运行
 
 ```bash
-cd /data/liyangyang/ai_infra/02_CUDA编程与HPC高性能计算/简历项目/CudaGemmProject
+cd /data/ai_infra/02_CUDA编程与HPC高性能计算/简历项目/CudaGemmProject
 make            # nvcc -O3 -arch=sm_80 -lcublas
 make run        # CUDA kernel benchmark -> results/cuda_gemm_benchmark.json
 make cublas     # PyTorch/cuBLAS 对比 -> results/cublas_benchmark.json

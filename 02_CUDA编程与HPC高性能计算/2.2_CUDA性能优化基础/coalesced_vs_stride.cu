@@ -1,7 +1,7 @@
 // 3.2 CUDA 性能优化基础：合并访问 vs 跨步访问性能对比
 //
 // 编译运行：
-//   cd /data/liyangyang/ai_infra/CUDA编程与HPC高性能计算
+//   cd /data/ai_infra/CUDA编程与HPC高性能计算
 //   nvcc -o /tmp/coalesced_vs_stride 3.2_CUDA性能优化基础/coalesced_vs_stride.cu && /tmp/coalesced_vs_stride
 #include <cuda_runtime.h>
 #include <stdio.h>

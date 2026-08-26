@@ -8,7 +8,7 @@ LLM 推理基础示例：加载模型、生成文本、测量关键指标。
 3. 对比 Greedy / Sampling / Beam Search 三种解码策略
 
 运行环境：
-    source /data/liyangyang/qwen35_env/bin/activate
+    source /data/qwen35_env/bin/activate
     python examples/basic_inference.py
 """
 import time
@@ -16,7 +16,7 @@ import torch
 from transformers import AutoModelForCausalLM, AutoTokenizer
 
 
-MODEL_PATH = "/data/liyangyang/models/Qwen3.5-9B"
+MODEL_PATH = "/data/models/Qwen3.5-9B"
 PROMPT = "请介绍一下机器学习中的梯度下降算法。"
 MAX_NEW_TOKENS = 128
 

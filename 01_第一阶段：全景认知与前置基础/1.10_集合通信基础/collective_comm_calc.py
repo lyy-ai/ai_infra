@@ -1,7 +1,7 @@
 # 2.6 集合通信基础：Ring/Tree AllReduce 通信量与耗时
 #
 # 运行：
-#   /data/liyangyang/qwen35_env/bin/python 1.10_集合通信基础/collective_comm_calc.py
+#   /data/qwen35_env/bin/python 1.10_集合通信基础/collective_comm_calc.py
 
 import math
 
