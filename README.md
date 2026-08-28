@@ -6,7 +6,7 @@
 
 | 顺序 | 目录 | 内容 |
 |------|------|------|
-| 01 | `01_第一阶段：全景认知与前置基础` | 第 1 章（1.1-1.11）：AI Infra 全景、岗位路线、编程/数学/Transformer/PyTorch/GPU/集合通信/工具链 |
+| 01 | `01_第一阶段：全景认知与前置基础` | 第 1 章（1.1-1.12）：AI Infra 全景、岗位路线、编程/数学/Transformer/PyTorch/GPU/集合通信/工具链、GPU 显卡选型与租卡买卡 |
 | 02 | `02_CUDA编程与HPC高性能计算` | 第 2 章：CUDA 编程、性能优化、Reduce/GEMM/Attention 算子、HPC 实战 |
 | 03 | `03_AI编译器` | 第 3 章：TVM 架构、编译前中后端、图优化 Pass、Laser 框架 |
 | 04 | `04_Runtime推理引擎` | 第 4 章：Runtime 架构、内存池、CUDA Graph、多流并发、动态调度 |

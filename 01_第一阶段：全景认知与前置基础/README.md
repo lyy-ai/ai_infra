@@ -20,7 +20,8 @@
 │   ├── 1.8_PyTorch框架/              # autograd / Module / checkpoint / profiler
 │   ├── 1.9_GPU硬件概论/              # SM / Tensor Core / 存储层次 / Memory Wall
 │   ├── 1.10_集合通信基础/             # 原语 / Ring/Tree / NCCL / NVLink vs IB
-│   └── 1.11_工程工具链/               # gdb/perf/nsys/ncu / Git / 芯片入门
+│   ├── 1.11_工程工具链/               # gdb/perf/nsys/ncu / Git / 芯片入门
+│   └── 1.12_GPU主流显卡选型与租卡买卡指南/  # A/H/B 卡与 30/40/50 系规格、整机搭配、场景选型、租买决策
 ├── README.md
 ├── tools/
 │   └── generate_foundation_diagrams.py
@@ -56,6 +57,8 @@ python 1.8_PyTorch框架/pytorch_infra_demo.py
 python 1.9_GPU硬件概论/gpu_spec_compare.py
 python 1.10_集合通信基础/collective_comm_calc.py
 python 1.11_工程工具链/toolchain_check.py
+python 1.12_GPU主流显卡选型与租卡买卡指南/gpu_selector.py --list
+python 1.12_GPU主流显卡选型与租卡买卡指南/gpu_selector.py --params 70 --task inference --dtype int4
 ```
 
 ## 课程目标
