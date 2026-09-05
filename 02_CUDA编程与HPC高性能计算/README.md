@@ -2,7 +2,7 @@
 
 ![CUDA 与 HPC 封面](images/cuda_hpc_cover.png)
 
-本专题从 CUDA 编程体系到 HPC 高性能算子开发，覆盖 GPU 编程模型、性能优化基础、经典算子实现（Reduce/GEMM）、Attention 算子、CPU 多线程并行、HPC 业务算子实战，以及性能分析工具链。
+本专题从 CUDA 编程体系到 HPC 高性能算子开发，覆盖 GPU 编程模型、性能优化基础、经典算子实现（Reduce/GEMM）、Attention 算子、CPU 多线程并行、HPC 业务算子实战、性能分析工具链，以及 Triton 编程与 Hopper/Blackwell 新特性（2024 后主流技术栈）。
 
 ## 目录结构
 
@@ -32,6 +32,14 @@ CUDA编程与HPC高性能计算/
 ├── 2.8_性能分析工具链/
 │   ├── 2.8_性能分析工具链.md
 │   └── roofline_calc.py
+├── 2.9_Triton编程实战/
+│   ├── 2.9_Triton编程实战.md
+│   ├── triton_softmax_demo.py
+│   └── triton_vs_cuda_decision.py
+├── 2.10_Hopper与Blackwell新特性/
+│   ├── 2.10_Hopper与Blackwell新特性.md
+│   ├── gpu_generation_compare.py
+│   └── warp_specialization_sim.py
 ├── README.md
 ├── tools/
 │   └── generate_cuda_hpc_diagrams.py
@@ -78,6 +86,10 @@ nvcc -o /tmp/sgemm_tiled 2.4_经典算子实现-GEMM/sgemm_tiled.cu && /tmp/sgem
 python 2.5_Attention算子/flash_attention_sim.py
 python 2.7_HPC算子开发实战/bev_fusion_sim.py
 python 2.8_性能分析工具链/roofline_calc.py
+python 2.9_Triton编程实战/triton_softmax_demo.py
+python 2.9_Triton编程实战/triton_vs_cuda_decision.py
+python 2.10_Hopper与Blackwell新特性/gpu_generation_compare.py
+python 2.10_Hopper与Blackwell新特性/warp_specialization_sim.py
 
 # CPU
 nvcc -Xcompiler -fopenmp -O3 -march=native -o /tmp/openmp_numa_simd 2.6_多线程并行优化/openmp_numa_simd.cpp && /tmp/openmp_numa_simd
@@ -97,4 +109,6 @@ python tools/generate_cuda_hpc_diagrams.py
 6. 掌握 CPU 多线程优化：OpenMP、NUMA 感知、SIMD 向量化。
 7. 了解 HPC 算子开发实战：分块、向量化、流水线、多平台差异、业务算子、训练算子、跨平台迁移。
 8. 熟练使用 Nsight Systems、Nsight Compute、PyTorch Profiler、Roofline 模型分析性能。
-9. 能把 CUDA/HPC 项目写成有分层、有指标、有证据的简历 bullet。
+9. 掌握 Triton 编程：tile 级编程模型、fused kernel 开发、autotune，以及 Triton vs 手写 CUDA 的选型决策。
+10. 理解 Hopper/Blackwell 新特性：TMA、Thread Block Cluster、Warp Specialization、FP8/FP4 Tensor Core、NVL72，及其对 kernel 开发与并行策略的影响。
+11. 能把 CUDA/HPC 项目写成有分层、有指标、有证据的简历 bullet。

@@ -1,6 +1,6 @@
 # 第七章：模型量化
 
-本专题覆盖大模型量化的完整知识体系：从量化基础到 PTQ/QAT、INT8 kernel、Weight-Only INT4、W4A16/W4A8、KV Cache 量化，最后是量化选型决策树与 Qwen 实战项目。
+本专题覆盖大模型量化的完整知识体系：从量化基础到 PTQ/QAT、INT8 kernel、Weight-Only INT4、W4A16/W4A8、KV Cache 量化、FP8（2024 后主流，含 DeepSeek-V3 混合精度训练与细粒度 scaling），最后是量化选型决策树与 Qwen 实战项目。
 
 ## 目录结构
 
@@ -15,14 +15,15 @@
 ├── 7.7_W4A8/                    # W4A8 / GPTQ-Int4（MLC-LLM 导出与推理）
 ├── 7.8_KVCache量化/              # KV Cache 量化、长上下文、KIVI
 ├── 7.9_量化决策树/               # 量化方案选型决策树与权衡分析
-└── 7.10_QwenQuantizationProject/ # Qwen3.5-9B 多精度部署实战项目
+├── 7.10_QwenQuantizationProject/ # Qwen3.5-9B 多精度部署实战项目
+└── 7.11_FP8量化/                 # FP8 E4M3/E5M2、细粒度 scaling、DeepSeek-V3 FP8 训练、Blackwell FP4
 ```
 
 每个子目录 = 讲义 md（`8.x_*.md`）+ 可运行代码示例。
 
 ## 学习建议
 
-1. 按 8.1 → 8.9 顺序学习，最后做 8.10 实战项目。
+1. 按 8.1 → 8.9 顺序学习，7.11（FP8）建议在 7.4 INT8 之后穿插学习，最后做 8.10 实战项目。
 2. 量化前先用 1.9 节的 roofline 判断模型是 memory-bound 还是 compute-bound。
 3. 学完每节回答取舍问题：这个量化方案牺牲了什么精度，换取了什么显存/速度？
 
@@ -38,4 +39,6 @@ python 7.3_QAT/qat_ste.py
 python 7.4_INT8/int8_gemm.py
 python 7.8_KVCache量化/kvcache_memory_analysis.py
 python 7.9_量化决策树/quantization_decision_tree.py
+python 7.11_FP8量化/fp8_format_demo.py
+python 7.11_FP8量化/fp8_scaling_granularity.py
 ```

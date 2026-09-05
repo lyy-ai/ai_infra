@@ -54,6 +54,14 @@
 │   ├── edge_multimodal_memory_estimator.py
 │   ├── vla_action_budget_estimator.py
 │   └── edge_colocated_scheduler.py
+├── 5.11_MoE推理与MLA/                              # 5.11 MoE 推理与 MLA（2024 后主流）
+│   ├── 5.11_MoE推理与MLA.md
+│   ├── moe_ep_simulator.py
+│   └── kv_cache_compare.py
+├── 5.12_长上下文与显存分层/                         # 5.12 长上下文与显存分层（KV Offload / Ring Attention / 稀疏注意力）
+│   ├── 5.12_长上下文与显存分层.md
+│   ├── kv_offload_model.py
+│   └── ring_attention_sim.py
 ├── 简历项目/                                  # 项目：简历写法与 Qwen2-0.5B vLLM 集群实战
 │   ├── 简历项目.md
 │   ├── start_qwen2_vllm_server.sh
@@ -95,6 +103,10 @@
 | `5.10_端侧与多模态推理/edge_multimodal_memory_estimator.py` | 5.10 端侧与多模态推理 | 2. 开源大模型适配：Qwen 系列 | VLM 权重、KV Cache、image tokens、workspace 内存估算 |
 | `5.10_端侧与多模态推理/vla_action_budget_estimator.py` | 5.10 端侧与多模态推理 | 3. 开源大模型适配：VLA 系列 | action chunk token 数、控制频率、decode token/s 预算 |
 | `5.10_端侧与多模态推理/edge_colocated_scheduler.py` | 5.10 端侧与多模态推理 | 5. 端侧共线多模态模型部署 | safety/planner pinned、VLM 内存准入、拒绝/降级策略模拟 |
+| `5.11_MoE推理与MLA/moe_ep_simulator.py` | 5.11 MoE 推理与 MLA | 4. 专家并行与负载均衡 | EP 路由负载分布、bias 均衡效果、all-to-all 通信量随 EP size 变化 |
+| `5.11_MoE推理与MLA/kv_cache_compare.py` | 5.11 MoE 推理与 MLA | 6. MLA 的 KV Cache 定量对比 | MHA/GQA/MQA/MLA 每 token KV 字节数、长上下文并发容量估算 |
+| `5.12_长上下文与显存分层/kv_offload_model.py` | 5.12 长上下文与显存分层 | 3. KV Offload 三级存储 | HBM/DDR/SSD 分层放置、命中率与 TTFT 影响 |
+| `5.12_长上下文与显存分层/ring_attention_sim.py` | 5.12 长上下文与显存分层 | 4. Context Parallel / Ring Attention | ring 时间线、通信掩盖判断、可扩展性表格 |
 | `简历项目/benchmark_qwen2_concurrency.py` | 项目：简历项目 | 3. Qwen2-0.5B vLLM 集群实战 | OpenAI-compatible 并发压测、吞吐/延迟/成功率统计、简历 bullet 模板 |
 | `简历项目/Qwen2VLLMClusterProject/scripts/run_offline_benchmark.py` | 项目：简历项目 | 工程化离线 benchmark | vLLM offline batch 吞吐压测，输出 `results/offline_throughput.json` |
 
@@ -139,6 +151,10 @@ python 5.9_业务模型推理引擎开发/ad_pipeline_parallel_simulator.py
 python 5.10_端侧与多模态推理/edge_multimodal_memory_estimator.py
 python 5.10_端侧与多模态推理/vla_action_budget_estimator.py
 python 5.10_端侧与多模态推理/edge_colocated_scheduler.py
+python 5.11_MoE推理与MLA/moe_ep_simulator.py
+python 5.11_MoE推理与MLA/kv_cache_compare.py
+python 5.12_长上下文与显存分层/kv_offload_model.py
+python 5.12_长上下文与显存分层/ring_attention_sim.py
 
 # vLLM 相关示例，建议显式设置 PATH 以使用 venv 内的 ninja
 PATH=/data/qwen35_env/bin:$PATH python 5.2_PagedAttention与KVCache管理/vllm_basic_inference.py
@@ -173,7 +189,7 @@ PATH=/data/qwen35_env/bin:$PATH python 5.5_PrefixCache/vllm_prefix_cache.py
 
 ## 后续课程预告
 
-- 本专题 5.1-5.10 与「简历项目」实战已完结；后续可扩展真实硬件 benchmark、推理系统性能调优与压测实践。
+- 本专题 5.1-5.12 与「简历项目」实战已完结；其中 5.11（MoE 推理与 MLA）与 5.12（长上下文与显存分层）为 2024 年后主流技术（DeepSeek-V3 时代）的补充专题。后续可扩展真实硬件 benchmark、推理系统性能调优与压测实践。
 
 ---
 

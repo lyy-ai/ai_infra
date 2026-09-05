@@ -2,7 +2,7 @@
 
 ![分布式训练封面](images/distributed_training_cover.png)
 
-本专题从分布式训练总论到具体并行策略与框架实战，覆盖数据并行、ZeRO、张量并行、序列并行、流水线并行、3D 并行、混合训练策略、训练框架（Megatron/DeepSpeed/FSDP）以及多卡通信优化。
+本专题从分布式训练总论到具体并行策略与框架实战，覆盖数据并行、ZeRO、张量并行、序列并行、流水线并行、3D 并行、混合训练策略、训练框架（Megatron/DeepSpeed/FSDP）以及多卡通信优化；另含 2024 年后主流专题：MoE 训练与专家并行（EP/DeepEP/DualPipe）、弹性训练与容错（万卡集群）、RLHF 与 Post-Training 系统（verl/OpenRLHF）。
 
 ## 目录结构
 
@@ -33,6 +33,15 @@
 ├── 6.8_多卡训练通信优化/
 │   ├── 6.8_多卡训练通信优化.md
 │   └── ring_allreduce_sim.py
+├── 6.9_MoE训练与专家并行/
+│   ├── 6.9_MoE训练与专家并行.md
+│   └── ep_alltoall_estimator.py
+├── 6.10_弹性训练与容错/
+│   ├── 6.10_弹性训练与容错.md
+│   └── checkpoint_cost_model.py
+├── 6.11_RLHF与PostTraining系统/
+│   ├── 6.11_RLHF与PostTraining系统.md
+│   └── rlhf_pipeline_sim.py
 ├── README.md
 ├── tools/
 │   └── generate_distributed_training_diagrams.py
@@ -77,6 +86,9 @@ cat 6.7_训练框架实战/deepspeed_config_example.json
 # fsdp_example.py 需要多卡环境：
 # python -m torchrun --nproc_per_node=2 6.7_训练框架实战/fsdp_example.py
 python 6.8_多卡训练通信优化/ring_allreduce_sim.py
+python 6.9_MoE训练与专家并行/ep_alltoall_estimator.py
+python 6.10_弹性训练与容错/checkpoint_cost_model.py
+python 6.11_RLHF与PostTraining系统/rlhf_pipeline_sim.py
 
 # 重新生成图片
 python tools/generate_distributed_training_diagrams.py
@@ -94,4 +106,7 @@ python tools/generate_distributed_training_diagrams.py
 8. 掌握混合训练策略：混合精度、梯度累积、Activation Checkpointing。
 9. 使用 Megatron-LM、DeepSpeed、PyTorch FSDP 进行训练。
 10. 优化多卡通信：NCCL、Ring AllReduce、通信与计算重叠、梯度压缩。
-11. 能把分布式训练项目写成有分层、有指标、有证据的简历 bullet。
+11. 掌握 MoE 训练：专家并行 EP、all-to-all 通信分析、负载均衡、DeepEP 与 DualPipe。
+12. 理解大规模集群容错：故障类型谱、checkpoint 策略与 goodput、弹性训练与慢节点治理。
+13. 理解 RLHF/Post-Training 系统：PPO/GRPO 四模型架构、rollout-训练-权重同步流水线、verl/OpenRLHF 框架。
+14. 能把分布式训练项目写成有分层、有指标、有证据的简历 bullet。
