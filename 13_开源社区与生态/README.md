@@ -6,7 +6,7 @@ AI Infra 领域关键开源项目的全景地图与参与指南。讲义之外�
 
 ```
 13_开源社区与生态/
-├── 13.1_推理与Serving引擎/      # vLLM / SGLang / TensorRT-LLM / LMDeploy / Mooncake / LMCache / llama.cpp
+├── 13.1_推理与Serving引擎/      # vLLM / SGLang / TensorRT-LLM / LMDeploy / Mooncake / LMCache / llama.cpp / llm-d
 │   └── 13.1_推理与Serving引擎.md
 ├── 13.2_训练框架/               # Megatron-LM / DeepSpeed / FSDP2 / torchtitan / NCCL / DeepEP / DeepGEMM
 │   └── 13.2_训练框架.md
@@ -21,6 +21,7 @@ AI Infra 领域关键开源项目的全景地图与参与指南。讲义之外�
 ## 生态地图（一张图看懂分层）
 
 ```text
+编排层   │ llm-d（K8s 原生分布式推理编排：智能路由/PD分离/KV分层/SLO扩缩容）
 应用层   │ vLLM  SGLang  TensorRT-LLM  LMDeploy  llama.cpp   （推理引擎，13.1）
          │ verl  OpenRLHF  slime  TRL  ROLL  AReaL           （后训练，13.3）
 框架层   │ Megatron-LM  DeepSpeed  FSDP2  torchtitan         （训练框架，13.2）
