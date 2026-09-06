@@ -1,7 +1,7 @@
 # 综合项目：编译 / Runtime / 量化收益估算
 #
 # 运行：
-#   cd /data/ai_infra/10_第三阶段：综合项目实战
+#   cd /data/ai_infra/10_综合项目实战
 #   /data/qwen35_env/bin/python 10.1_综合项目_MMBEV端到端多平台部署优化/compile_runtime_quant_sim.py
 
 

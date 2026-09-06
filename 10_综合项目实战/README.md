@@ -1,13 +1,13 @@
-# 第三阶段：综合项目实战
+# 第十章：综合项目实战
 
 ![综合项目实战封面](images/comprehensive_project_cover.png)
 
-本阶段为一个完整的端到端项目：**自动驾驶 MMBEV 模型端到端多平台部署优化**。项目把前面所有专题的知识点串成一条主线：业务模型分析 → HPC 算子开发 → 编译优化 → Runtime 优化 → 量化部署 → 推理引擎 → 多平台验证。
+本章为一个完整的端到端项目：**自动驾驶 MMBEV 模型端到端多平台部署优化**。项目把前面所有专题的知识点串成一条主线：业务模型分析 → HPC 算子开发 → 编译优化 → Runtime 优化 → 量化部署 → 推理引擎 → 多平台验证。
 
 ## 目录结构
 
 ```
-第三阶段：综合项目实战/
+综合项目实战/
 ├── 10.1_综合项目_MMBEV端到端多平台部署优化/
 │   ├── 10.1_综合项目_MMBEV端到端多平台部署优化.md   # 完整项目文档（背景→分析→五模块→验证→成果）
 │   ├── end_to_end_pipeline.py                  # 端到端优化流程模拟
@@ -26,7 +26,7 @@
 
 ```bash
 source /data/qwen35_env/bin/activate
-python /data/ai_infra/10_第三阶段：综合项目实战/tools/generate_comprehensive_project_diagrams.py
+python /data/ai_infra/10_综合项目实战/tools/generate_comprehensive_project_diagrams.py
 ```
 
 ## 运行环境
@@ -40,7 +40,7 @@ python /data/ai_infra/10_第三阶段：综合项目实战/tools/generate_compre
 
 ```bash
 source /data/qwen35_env/bin/activate
-cd /data/ai_infra/10_第三阶段：综合项目实战
+cd /data/ai_infra/10_综合项目实战
 
 python 10.1_综合项目_MMBEV端到端多平台部署优化/end_to_end_pipeline.py
 python 10.1_综合项目_MMBEV端到端多平台部署优化/hpc_kernel_sim.py

@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""生成第一阶段全景认知与前置基础演示图。运行：
+"""生成第一章全景认知与前置基础演示图。运行：
 python tools/generate_foundation_diagrams.py
 """
 import os
@@ -71,7 +71,7 @@ def label(ax, x, y, text, color=MUTED, size=11, ha="center", va="center", weight
 
 
 def cover():
-    fig, ax = new_fig("第一阶段：全景认知与前置基础", "全景认知（1.1-1.4）+ 前置基础（2.1-2.7）")
+    fig, ax = new_fig("第一章：全景认知与前置基础", "全景认知（1.1-1.4）+ 前置基础（1.5-1.12）")
     c1 = [("1.1", "AI Infra", CYAN), ("1.2", "大厂组织", GREEN), ("1.3", "岗位路线", ORANGE), ("1.4", "学习路线", PURPLE)]
     x = 1.2
     for num, name, color in c1:

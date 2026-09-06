@@ -1,13 +1,13 @@
-# 第四阶段：简历项目包装与面试冲刺
+# 第十一章：简历项目包装与面试冲刺
 
 ![面试冲刺封面](images/interview_sprint_cover.png)
 
-本阶段把前面三个阶段的技术积累转化为求职竞争力：简历写作指导（STAR + 量化 + 黄金法则）、各模块高频面试题拆解、分岗位模拟面试与系统设计演练。
+本章把前面各章的技术积累转化为求职竞争力：简历写作指导（STAR + 量化 + 黄金法则）、各模块高频面试题拆解、分岗位模拟面试与系统设计演练。
 
 ## 目录结构
 
 ```
-第四阶段：简历项目包装与面试冲刺/
+简历项目包装与面试冲刺/
 ├── 11.1_简历写作指导/
 │   ├── 11.1_简历写作指导.md           # STAR 法则 / 量化表达 / 黄金法则 / 岗位侧重点
 │   ├── star_bullet_generator.py    # STAR bullet 生成器
@@ -29,7 +29,7 @@
 
 ```bash
 source /data/qwen35_env/bin/activate
-python /data/ai_infra/11_第四阶段：简历项目包装与面试冲刺/tools/generate_interview_sprint_diagrams.py
+python /data/ai_infra/11_简历项目包装与面试冲刺/tools/generate_interview_sprint_diagrams.py
 ```
 
 ## 运行环境
@@ -40,7 +40,7 @@ python /data/ai_infra/11_第四阶段：简历项目包装与面试冲刺/tools/
 
 ```bash
 source /data/qwen35_env/bin/activate
-cd /data/ai_infra/11_第四阶段：简历项目包装与面试冲刺
+cd /data/ai_infra/11_简历项目包装与面试冲刺
 
 python 11.1_简历写作指导/star_bullet_generator.py
 python 11.1_简历写作指导/jd_keyword_matcher.py

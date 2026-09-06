@@ -1,14 +1,14 @@
-# 第一阶段：全景认知与前置基础
+# 第一章：全景认知与前置基础
 
-![第一阶段封面](images/foundation_cover.png)
+![第一章封面](images/foundation_cover.png)
 
-本阶段是 AI Infra 课程的起点：第一章建立全景认知（什么是 AI Infra、大厂组织、岗位路线、学习路线），第二章补齐前置基础（编程、数学、Transformer、PyTorch、GPU 硬件、集合通信、工程工具链）。
+本章是 AI Infra 课程的起点：1.1-1.4 建立全景认知（什么是 AI Infra、大厂组织、岗位路线、学习路线），1.5-1.12 补齐前置基础（编程、数学、Transformer、PyTorch、GPU 硬件、集合通信、工程工具链）。
 
 ## 目录结构
 
 ```
-第一阶段：全景认知与前置基础/
-├── 第一章：AI Infra 全景认知
+全景认知与前置基础/
+├── AI Infra 全景认知（1.1-1.4）
 │   ├── 1.1_什么是AI_Infra/          # 定义、五大方向、不可能三角
 │   ├── 1.2_大厂AI_Infra组织架构/     # NVIDIA/字节/阿里/百度/自动驾驶
 │   ├── 1.3_AI_Infra岗位路线图/       # 级别、薪资、能力要求
@@ -33,7 +33,7 @@
 
 ```bash
 source /data/qwen35_env/bin/activate
-python /data/ai_infra/01_第一阶段：全景认知与前置基础/tools/generate_foundation_diagrams.py
+python /data/ai_infra/01_全景认知与前置基础/tools/generate_foundation_diagrams.py
 ```
 
 ## 运行环境
@@ -44,7 +44,7 @@ python /data/ai_infra/01_第一阶段：全景认知与前置基础/tools/genera
 
 ```bash
 source /data/qwen35_env/bin/activate
-cd /data/ai_infra/01_第一阶段：全景认知与前置基础
+cd /data/ai_infra/01_全景认知与前置基础
 
 python 1.1_什么是AI_Infra/infra_tradeoff_calc.py
 python 1.2_大厂AI_Infra组织架构/org_landscape.py
