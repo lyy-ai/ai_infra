@@ -83,3 +83,13 @@ python tools/generate_multi_platform_diagrams.py
 4. 掌握自研芯片算子适配流程、接口对齐与跨平台一致性验证。
 5. 建立统一的跨平台 benchmark 框架，输出自动化对比报告。
 6. 能把多平台适配项目写成有数据、有对比、有结论的简历 bullet。
+
+## 开源参照：FlagScale / FlagOS（多芯迁移的工程化样本）
+
+本章讨论的"算子迁移、跨平台一致性、多芯部署"在开源社区的完整落地样本是智源的 **FlagScale**（github.com/flagos-ai/FlagScale，FlagOS 统一 AI 系统软件栈的核心组件，2026-03 发布 v1.0.0）：
+
+- **"一次开发，多芯迁移"**：统一配置与 CLI 覆盖训练（Megatron-LM-FL / TransformerEngine-FL 插件）、RL（VeRL-FL）、推理（vllm-plugin-FL），硬件差异收拢到插件层而非 fork 上游框架——这是多芯片适配可持续的工程路线。
+- **FlagCX 跨芯通信库**：解决非 NVIDIA 互联与异构混训场景的集合通信问题。
+- **开箱模型配置**：DeepSeek-V3/R1（671B）、Kimi-K2（1T）、Qwen3、Grok2 等训练与 serving 双侧配置。
+
+学习建议：读完 8.3/8.4 后，看 FlagScale 的插件机制如何把"让框架跑在新芯片上"产品化——这正好把本章的方法论串成一个真实案例。详见 `13_开源社区与生态/13.2_训练框架`。

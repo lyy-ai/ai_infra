@@ -24,9 +24,9 @@ AI Infra 领域关键开源项目的全景地图与参与指南。讲义之外�
 编排层   │ llm-d（K8s 原生分布式推理编排：智能路由/PD分离/KV分层/SLO扩缩容）
 应用层   │ vLLM  SGLang  TensorRT-LLM  LMDeploy  llama.cpp   （推理引擎，13.1）
          │ verl  OpenRLHF  slime  TRL  ROLL  AReaL           （后训练，13.3）
-框架层   │ Megatron-LM  DeepSpeed  FSDP2  torchtitan         （训练框架，13.2）
+框架层   │ Megatron-LM  DeepSpeed  FSDP2  torchtitan  FlagScale（多芯统一） （训练框架，13.2）
 算子层   │ FlashAttention  FlashInfer  Triton  CUTLASS       （kernel，13.4）
-通信层   │ NCCL  DeepEP  NVSHMEM                             （通信，13.2/13.4）
+通信层   │ NCCL  DeepEP  NVSHMEM  FlagCX（跨芯通信）         （通信，13.2/13.4）
 存储/缓存│ Mooncake  LMCache                                 （KV 系统，13.1）
 ```
 
