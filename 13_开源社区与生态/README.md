@@ -22,6 +22,7 @@ AI Infra 领域关键开源项目的全景地图与参与指南。讲义之外�
 
 ```text
 编排层   │ llm-d（K8s 原生分布式推理编排：智能路由/PD分离/KV分层/SLO扩缩容）
+工具层   │ AIConfigurator（PD 分离部署配置自动寻优，产出 Dynamo/llm-d 配置）
 应用层   │ vLLM  SGLang  TensorRT-LLM  LMDeploy  llama.cpp   （推理引擎，13.1）
          │ verl  OpenRLHF  slime  TRL  ROLL  AReaL           （后训练，13.3）
 框架层   │ Megatron-LM  DeepSpeed  FSDP2  torchtitan  FlagScale（多芯统一） （训练框架，13.2）
