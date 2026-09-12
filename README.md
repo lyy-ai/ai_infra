@@ -20,6 +20,7 @@
 | 12 | `12_最新论文分享` | 31 篇 AI Infra 最新与奠基论文解读：Serving/训练系统/MoE/长上下文/量化/RLHF 六大方向 |
 | 13 | `13_开源社区与生态` | 开源项目全景地图：推理引擎/训练框架/RL 框架/Kernel 底层库的选型与源码入口，源码阅读与社区参与方法论 |
 | 14 | `14_大厂AI_Infra面试题库` | 162 题题库：CUDA/推理Serving/分布式训练/量化/2024+新热点/系统设计/手写代码，按公司画像与难度分级 |
+| 15 | `15_Agent系统与工程` | Agent 原理、Harness 架构解剖、框架生态（MCP/A2A）、Coding Agent 专题（Claude Code/OpenCode 等）、Agent 与 AI Infra 结合 |
 
 ## 建议学习顺序
 
