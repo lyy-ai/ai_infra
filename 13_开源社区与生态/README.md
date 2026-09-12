@@ -22,13 +22,13 @@ AI Infra 领域关键开源项目的全景地图与参与指南。讲义之外�
 
 ```text
 编排层   │ llm-d（K8s 原生分布式推理编排：智能路由/PD分离/KV分层/SLO扩缩容）
-工具层   │ AIConfigurator（PD 分离部署配置自动寻优，产出 Dynamo/llm-d 配置）
+工具层   │ AIConfigurator（PD 分离配置寻优）/ HiSim（免 GPU 推理仿真，预测 TTFT/TPOT/吞吐）
 应用层   │ vLLM  SGLang  TensorRT-LLM  LMDeploy  llama.cpp   （推理引擎，13.1）
          │ verl  OpenRLHF  slime  TRL  ROLL  AReaL           （后训练，13.3）
 框架层   │ Megatron-LM  DeepSpeed  FSDP2  torchtitan  FlagScale（多芯统一） （训练框架，13.2）
 算子层   │ FlashAttention  FlashInfer  Triton  CUTLASS       （kernel，13.4）
 通信层   │ NCCL  DeepEP  NVSHMEM  FlagCX（跨芯通信）         （通信，13.2/13.4）
-存储/缓存│ Mooncake  LMCache                                 （KV 系统，13.1）
+存储/缓存│ Mooncake  LMCache  Tair KVCache（全局 KV 中间件）   （KV 系统，13.1）
 ```
 
 阅读建议：每节都给了"读源码从哪个文件/目录开始"的入口，配合本仓库对应章节（讲义）与第 12 章（论文）三层联动：**讲义学原理 → 论文读思想 → 源码看实现**。
