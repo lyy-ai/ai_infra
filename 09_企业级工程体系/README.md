@@ -2,7 +2,7 @@
 
 ![企业级工程体系封面](images/enterprise_engineering_cover.png)
 
-本专题从工具到平台，构建生产级 AI Infra 工程能力。覆盖 CI/CD 与自动化、性能回归平台、Profiling 平台、质量保障系统、监控与告警、GPU 集群调度与平台六大子系统。
+本专题从工具到平台，构建生产级 AI Infra 工程能力。覆盖 CI/CD 与自动化、性能回归平台、Profiling 平台、质量保障系统、监控与告警、GPU 集群调度与平台、模型评测体系七大子系统。
 
 ## 目录结构
 
@@ -32,6 +32,9 @@
 │   ├── 9.6_GPU集群调度与平台.md
 │   ├── gpu_scheduling_sim.py
 │   └── mig_partition_planner.py
+├── 9.7_模型评测体系/
+│   ├── 9.7_模型评测体系.md
+│   └── llm_judge_bias_sim.py
 ├── README.md
 ├── tools/
 │   └── generate_enterprise_engineering_diagrams.py
@@ -79,6 +82,7 @@ python 9.5_监控与告警/gpu_monitor.py
 python 9.5_监控与告警/slo_alert_rule.py
 python 9.6_GPU集群调度与平台/gpu_scheduling_sim.py
 python 9.6_GPU集群调度与平台/mig_partition_planner.py
+python 9.7_模型评测体系/llm_judge_bias_sim.py
 
 # 重新生成图片
 python tools/generate_enterprise_engineering_diagrams.py
@@ -92,4 +96,5 @@ python tools/generate_enterprise_engineering_diagrams.py
 4. 建设质量保障系统，包含结构化日志、Tensor Diff、多平台一致性验证。
 5. 实现监控与告警，覆盖 GPU 基础设施与推理服务 SLO。
 6. 理解 GPU 集群调度与平台：K8s device plugin、gang scheduling（Volcano/Kueue）、MIG 切分、拓扑感知 bin-packing、在线离线混部与利用率工程。
-7. 能把企业级工程体系建设写成有平台、有指标、有业务价值的简历 bullet。
+7. 建立模型评测体系：三层评测（离线客观/主观 judge/线上 eval）、LLM-as-judge 偏差治理、评测防污染与质量门禁。
+8. 能把企业级工程体系建设写成有平台、有指标、有业务价值的简历 bullet。
